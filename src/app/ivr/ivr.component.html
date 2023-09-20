@@ -1,0 +1,295 @@
+<div class="ivr">
+  <div class="ivrbox">
+    <div class="content-full jsales-order">
+      <div class="lt-header">
+        <div class="left">
+          <div class="title">
+            <span class="">
+              <a>
+                Services & Tools &nbsp;<i class="fas fa-chevron-right"></i>
+                <span class="heading">IVR automated call</span>
+              </a>
+              <p class="caption">
+                An automated call service, So you can serve your customers in a
+                better way.
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div class="tabs">
+        <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start">
+          <mat-tab class="mat-mdc-tab mdc-tab__content" label="Preferences">
+            <mat-divider></mat-divider>
+            <div class="tabs-box">
+              <div class="tab12">
+                <i class="fa-solid fa-calendar-days icon-box"></i>
+                <div class="tab-content1">
+                  <span class="tab-text">Refills Reminder</span>
+                  <p class="tab-subtext">An automated reminder service</p>
+                </div>
+                <!-- <app-bottom-sheet></app-bottom-sheet> -->
+                <div class="bottom-sheet" [ngClass]="{ open: isOpen }">
+                  <div class="bottom-sheet-header">
+                    <div class="bottom-sheet-header-text">
+                      <div class="bottom-sheet-header-text1">
+                        Refill Reminder Call
+                      </div>
+                      <div class="padding">
+                        <button
+                          type="button"
+                          class="button0 button1"
+                          data-bs-toggle="button"
+                          autocomplete="off"
+                        >
+                          Activate
+                        </button>
+                      </div>
+                      <div class="padding1">
+                        <i
+                          class="fa fa-times"
+                          (click)="closeSheet()"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bottom-sheet-content">
+                    <div class="reminder">
+                      <i class="fa fa-bell" aria-hidden="true"></i>
+                      &nbsp; &nbsp; &nbsp;
+                      <span class="remind"><b>Remind a customer</b></span>
+                      &nbsp;
+                      <select class="fa-bell1">
+                        <option value="once-a-day">once a day</option>
+                        <option value="twice-a-day">twice a day</option>
+                        <option value="once-a-week">once a week</option>
+                      </select>
+
+                      <!-- <mat-form-field >
+                                      <mat-select [(value)]="selectedFrequency">
+                                        <mat-option value="once-a-day">once a day</mat-option>
+                                        <mat-option value="twice-a-day">twice a day</mat-option>
+                                        <mat-option value="once-a-week">once a week</mat-option>
+                                      </mat-select>
+                                    </mat-form-field> -->
+
+                      <!-- <i  class="fa fa-chevron-down"  aria-hidden="true"></i> -->
+                    </div>
+
+                    <br />
+                    <br />
+                    <table>
+                      <tr>
+                        <th class="table">
+                          <i class="fa fa-comment" aria-hidden="true"></i>
+                        </th>
+                        <th>
+                          <mat-tab-group
+                            mat-stretch-tabs="false"
+                            mat-align-tabs="start"
+                          >
+                            <mat-tab>
+                              <mat-divider></mat-divider>
+                              <ng-template mat-tab-label>
+                                &nbsp; Self Record
+                              </ng-template>
+
+                              <br />
+                              <br />
+                              <!-- <app-audio-recorder></app-audio-recorder> -->
+
+                              <div class="audio-controls">
+                                <button
+                                  (click)="toggleRecording()"
+                                  class="rectangle-button record-button"
+                                  *ngIf="showRecordButton"
+                                >
+                                  <i
+                                    class="fa fa-dot-circle-o"
+                                    aria-hidden="true"
+                                  ></i>
+                                  Record
+                                </button>
+                                <button
+                                  (click)="stopRecording()"
+                                  class="rectangle-button stop-button"
+                                  *ngIf="showStopButton"
+                                >
+                                  <i class="fas fa-stop"></i> Stop
+                                </button>
+                                <br />
+
+                                <div class="message" *ngIf="showStopMessage">
+                                  Please review your recording
+                                </div>
+
+                                <!-- <button (click)="deleteAudio()" class="rectangle-button delete-button" *ngIf="showStopMessage">
+      <i class="fas fa-trash-alt"></i> Delete
+    </button> -->
+                              </div>
+
+                              <br />
+                              <div class="audio">
+                                <audio
+                                  *ngIf="showStopMessage"
+                                  #audioElement
+                                  controls
+                                ></audio>
+                                <div class="spacer">
+                                  <i
+                                    class="fa fa-trash-o"
+                                    *ngIf="showStopMessage"
+                                    (click)="deleteAudio()"
+                                    aria-hidden="true"
+                                  ></i>
+                                </div>
+                              </div>
+
+                              <br />
+                              <div class="last">
+                                <div class="alert-message">
+                                  <i
+                                    class="fa fa-lightbulb-o"
+                                    aria-hidden="true"
+                                  ></i>
+                                  <span class="alert-msg">
+                                    <p>
+                                      Make sure your message should be less than
+                                      15 seconds
+                                    </p></span
+                                  >
+                                </div>
+                              </div>
+
+                              
+                              <!-- demo -->
+                              <!-- <button class="rectangle-button" (click)="toggleButton()">
+  {{ buttonText }}
+</button> -->
+                            </mat-tab>
+
+                            <mat-tab label="Text to Speech">
+                              <mat-divider></mat-divider>
+                              <br />
+                              <div class="box">
+                                Add predefined terms in text &nbsp; &nbsp;
+                                <button class="button-box">
+                                  Customer name
+                                </button>
+                                &nbsp;
+                                <button class="button-box">
+                                  Last invoice date
+                                </button>
+
+                                <br />
+                                <br />
+
+                                <p class="disabled-text">
+                                  Type your message here
+                                </p>
+                                <br />
+                                <br />
+                                <br />
+                                <button
+                                  type="button"
+                                  class="button button1 btn"
+                                  data-bs-toggle="button"
+                                  autocomplete="off"
+                                >
+                                  Generate
+                                </button>
+                              </div>
+                              <br />
+
+                              <p class="predefined">
+                                Predefined terms will be replaced by real name
+                                at time of call.
+                              </p>
+                            </mat-tab>
+                          </mat-tab-group>
+                        </th>
+                      </tr>
+                      <!-- <tr>
+                                          <div class="alert-message">
+                                          <th>
+                                            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                                          </th>
+                                          <th>
+                                            <span class="alert-msg">
+                                              <p>Make sure your message should be less than 15 seconds</p></span>
+                                          </th></div>
+                                        </tr> -->
+                    </table>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  class="button button2"
+                  (click)="openSheet()"
+                  data-bs-toggle="button"
+                  autocomplete="off"
+                >
+                  Setup
+                </button>
+
+                <div class="freespace"></div>
+                <div class="vc-coin">
+                  1 &nbsp;
+                  <img src="../../assets/images/vc-coin.png" alt="coin" />
+                  <span>VC / Call</span>
+                </div>
+              </div>
+              <mat-divider></mat-divider>
+              <div class="tab12">
+                <i class="fa-solid fa-user-group icon-box"></i>
+                <div class="tab-content2">
+                  <span class="tab-text">Customer Churn</span>
+                  <p class="tab-subtext">
+                    Setup a call for your regular customer, no more coming to
+                    your store
+                  </p>
+                </div>
+                <div class="active">
+                  <button class="button-active">
+                    <i class="fa fa-check" aria-hidden="true"></i> &nbsp;Active
+                  </button>
+                </div>
+                <!-- <app-bottom-sheet></app-bottom-sheet> -->
+                <button
+                  type="button"
+                  class="button button2"
+                  (click)="openSheet()"
+                  data-bs-toggle="button"
+                  autocomplete="off"
+                >
+                  Setup
+                </button>
+                <!-- <button type="button" class="button button2">Setup</button> -->
+                <div class="freespace"></div>
+                <div class="vc-coin">
+                  1 &nbsp;
+                  <img src="../../assets/images/vc-coin.png" alt="coin" />
+                  <span>VC / Call</span>
+                </div>
+              </div>
+              <mat-divider></mat-divider>
+            </div>
+          </mat-tab>
+          <mat-tab label="Summary">
+            <div class="services-box">
+              <div class="service-list">
+                <br />
+                <div class="box">Add predefined terms in text</div>
+              </div>
+            </div>
+          </mat-tab>
+        </mat-tab-group>
+      </div>
+    </div>
+  </div>
+</div>

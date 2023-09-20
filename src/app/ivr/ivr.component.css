@@ -1,0 +1,973 @@
+@import "~font-awesome/css/font-awesome.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.mat-mdc-tab-mdc-tab:before {
+  color: #000203;
+}
+
+.ivr {
+  overflow: hidden;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ivrbox {
+  display: flex;
+  height: 80vh;
+  margin: 5px;
+  padding: 0;
+  flex-direction: column;
+}
+
+.lt-header {
+  margin: 25px;
+}
+
+.title span {
+  color: #0ca1f6;
+}
+
+.title {
+  color: rgba(12, 161, 246, 1);
+  margin: 2px;
+}
+
+.heading {
+  font: normal normal bold 24px Manrope;
+  color: #0ca1f6;
+}
+
+.caption {
+  margin-left: 151px;
+  text-transform: lowercase;
+  color: #3c3b3b;
+  font-weight: 700;
+}
+
+.caption::first-letter {
+  text-transform: uppercase;
+}
+
+.fa-solid-fa-user-group-icon-large {
+  color: #0ca1f6;
+}
+
+.fa-solid-fa-user-group-icon-large {
+  color: #0ca1f6;
+}
+.fa-chevron-right:before {
+  font-size: 18px;
+}
+
+.mat-mdc-tab .mdc-tab__content {
+  position: relative;
+  pointer-events: auto;
+  font-size: 20px;
+  font-weight: 900;
+}
+.icon-box {
+  font-size: 16px;
+  background-color: #eaf4ff;
+  color: #0ca1f6;
+  border-radius: 90%;
+  padding: 12px;
+}
+
+.tab-content1 {
+  margin-left: 32px;
+  padding-right: 980px;
+}
+
+.tab-content2 {
+  margin-left: 30px;
+  padding-right: 511px;
+}
+
+.active {
+  padding-right: 122px;
+}
+
+.tab-text {
+  font-size: 18px;
+  color: #044c9d;
+  font-weight: 700;
+}
+
+.tab12 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 6px;
+  height: 110px;
+}
+
+.tab-subtext {
+  font-size: 15px;
+  color: #474646;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.tabs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 96%;
+  max-width: 100%;
+  overflow-y: auto;
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+.tabs ::ng-deep .mat-ink-bar {
+  background-color: #0ca1f6;
+  font-weight: 900;
+}
+
+.tabs ::ng-deep .mat-tab-label-active {
+  background-color: transparent;
+  opacity: 1;
+  color: #0ca1f6;
+}
+
+.label {
+  font: normal normal normal 16px/18px "Font Awesome 6 Free Solid";
+  color: #0ca1f6;
+}
+
+.vc-coin img {
+  width: 14px;
+  /* height: 17px;  */
+}
+
+.vc-coin {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.freespace {
+  width: 10px;
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.bottom-sheet {
+  position: fixed;
+  bottom: -100%;
+
+  left: 0;
+  width: 100%;
+  height: 70%;
+
+  background-color: #ffffff;
+  transition: bottom 0.3s ease-in-out;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.bottom-sheet.open {
+  bottom: 0;
+}
+
+.bottom-sheet-header {
+  background-color: #044c9d;
+  color: #fff;
+  padding: 15px;
+  text-align: right;
+  font-family: Manrope;
+  font-style: normal;
+  font-size: 21px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bottom-sheet-content {
+  padding: 20px;
+}
+
+.box {
+  width: 100%;
+  height: 240px;
+  border: 1px solid white;
+  padding: 20px;
+  /* margin: -7px; */
+  background-color: #eaf4ff;
+  /* font-family: Manrope; */
+  font-style: normal;
+  font-size: 14px;
+  text-transform: capitalize;
+  line-height: 19px;
+  color: rgba(4, 76, 157, 1);
+  font-weight: 500;
+}
+
+.button12 {
+  padding: 1px;
+  height: 23px;
+  border-radius: 90px;
+  background-color: #a4bed9;
+  /* color:#0ca1f6 ; */
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 80px;
+  /* border-width: 30px; */
+}
+.button-active {
+  padding: 1px;
+  height: 29px;
+  border-radius: 100px;
+  background-color: #a4bed9;
+  /* color:#0ca1f6 ; */
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 85px;
+  font-size: 15px;
+  padding-bottom: 2px;
+  /* border-width: 30px; */
+}
+
+.fa-check {
+  background-color: white;
+  color: #a4bed9;
+  padding: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 98%;
+  /* Rounded background for the icon */
+  font-size: 11px;
+
+  /* Adjust the icon size */
+}
+
+.open-button {
+  background-color: #044c9d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: flex;
+  max-width: 600px;
+  padding: px;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+.ng-star-inserted {
+  padding-left: 20px;
+}
+
+.example-button-row {
+  display: flex;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-item-jsales-order-date-jnew-search-date-box {
+  top: 7px;
+  right: 11px;
+  position: absolute;
+  color: rgba(4, 76, 157, 0.6);
+  cursor: pointer;
+}
+
+/* .bottom-sheet */
+
+#bottomSheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.tabs {
+  width: 50%;
+  max-width: 100px;
+  display: contents;
+  background-color: #ffffff;
+  padding: 27px 40px;
+}
+
+.tabs ::ng-deep .mat-ink-bar {
+  background-color: #0c93df;
+}
+
+.tabs ::ng-deep .mat-tab-label-active {
+  color: #0ca1f6;
+}
+
+#bottomSheetContent {
+  padding: 20px;
+}
+
+.mat-mdc-tab .mdc-tab__text-label {
+  color: rgb(48 48 48 / 60%);
+  display: inline-flex;
+  align-items: center;
+}
+
+.mat-mdc-tab-labels {
+  min-width: 25px !important;
+  padding: 5px;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+}
+
+.md-tab.ng-scope.ng-isolate-scope.md-ink-ripple.md-active {
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+}
+
+.md-tab.ng-scope.ng-isolate-scope.md-ink-ripple {
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+}
+
+.mat-tab-label:active {
+  min-width: 25px !important;
+  padding: 5px;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+}
+
+.mat-tab-label:selected {
+  min-width: 25px !important;
+  padding: 5px;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 0;
+}
+
+#closeButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.icon-container {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.pl1 {
+  padding-right: 770px;
+  display: flex;
+}
+
+.demo-tab-group {
+  border: 1px solid #e8e8e8;
+}
+
+.demo-tab-content {
+  padding: 16px;
+}
+
+.con {
+  padding: 20px;
+}
+
+.refill1 {
+  padding-left: 1px;
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 19px;
+  color: rgba(4, 76, 157, 1);
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.refill2 {
+  padding-left: 1px;
+  padding-right: 3px;
+  display: flex;
+  /* width: 100%; */
+}
+
+.setup {
+  padding-left: 75px;
+}
+
+.space {
+  padding-left: 4px;
+}
+
+.box2 {
+  width: 100%;
+  height: 240px;
+  border: 1px solid white;
+  padding: 20px;
+  /* margin: -7px; */
+  background-color: #eaf4ff;
+  /* font-family: Manrope; */
+  font-style: normal;
+  font-size: 14px;
+  text-transform: capitalize;
+  line-height: 19px;
+  color: rgba(4, 76, 157, 1);
+  font-weight: 500;
+}
+@import "~font-awesome/css/font-awesome.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.bottom-sheet {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  /* position: fixed; */
+  display: inline-block;
+  /* left: 0px; */
+  /* top: 0px; */
+  margin: 0 25%;
+  width: 50%;
+  height: 125px;
+  /* border: 1px solid black; */
+  height: 70%;
+  background-color: #ffffff;
+  transition: bottom 0.3s ease-in-out;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+.fa-times {
+  font-size: 28px;
+}
+
+.bottom-sheet.open {
+  bottom: 0;
+  backdrop-filter: blur(8px);
+}
+
+.bottom-sheet-header {
+  background-color: #044c9d;
+  color: #fff;
+  padding: 12px;
+  /* padding-right: 180px; */
+  text-align: right;
+}
+
+.bottom-sheet-header-text {
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 14px;
+  display: flex;
+  /* padding: 2px; */
+  /* padding-bottom: 2px; */
+}
+
+.bottom-sheet-header-text1 {
+  padding-left: 10px;
+  padding-right: 420px;
+  padding-top: 12px;
+  /* display: flex; */
+}
+
+.padding {
+  padding-right: 50px;
+  text-align: center;
+}
+
+.padding1 {
+  padding-left: 40px;
+  text-align: right;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bottom-sheet-content {
+  padding: 20px;
+}
+.button {
+  background-color: #0ca1f6;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-style: normal;
+  box-shadow: 0px 2px 6px #4697c6;
+  font-size: 18px;
+  text-transform: capitalize;
+  line-height: 25px;
+  /* color: rgba(4, 76, 157, 1); */
+  font-weight: 510;
+}
+
+.button1 {
+  padding: 10px 30px;
+}
+.button2 {
+  padding: 9px 41px;
+  height: 42px;
+}
+.button123 {
+  background-color: #f2f2f2; /* Green */
+  border: none;
+  color: #0ca1f6;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-width: 3px;
+  border-radius: 40px;
+  border-color: #0ca1f6;
+  font-style: normal;
+  border-style: solid;
+  font-size: 13px;
+  text-transform: capitalize;
+  line-height: 19px;
+  /* color: rgba(4, 76, 157, 1); */
+  font-weight: 510;
+}
+.button12 {
+  border: 2px solid #0ca1f6;
+  padding: 2px;
+  border-radius: 50px;
+  background-color: #eaf4ff;
+  color: #0ca1f6;
+  padding-left: 15px;
+  padding-right: 12px;
+  /* border-width: 30px; */
+}
+
+.button-box {
+  border: 1px solid #0ca1f6;
+  padding: 2px;
+  border-radius: 50px;
+  background-color: #eaf4ff;
+  color: #0ca1f6;
+  padding-left: 15px;
+  padding-right: 12px;
+  padding-bottom: 4px;
+  font-weight: 500;
+  font-size: 15px; /* border-width: 30px; */
+}
+
+.btn {
+  text-align: right;
+  position: absolute;
+  top: 40;
+  /* left: 200; */
+  right: 20px;
+  bottom: 24%;
+}
+
+.button0 {
+  background-color: #0ca1f6; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-style: normal;
+
+  font-size: 18px;
+  text-transform: capitalize;
+  line-height: 25px;
+  /* color: rgba(4, 76, 157, 1); */
+  font-weight: 510;
+}
+
+.remind {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.disabled-text {
+  color: #888;
+  opacity: 0.6;
+  font-size: 17px;
+}
+
+.open-button {
+  background-color: #044c9d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.reminder {
+  display: inline;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 7px;
+
+  width: 300px;
+  margin: -4px;
+}
+
+.reminder-icon {
+  flex: 1;
+  text-align: center;
+}
+
+.fa-bell {
+  color: #0ca1f6;
+  font-size: 18px;
+  background-color: #eaf4ff;
+  padding: 10px;
+  border-radius: 90%;
+  height: 36px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.alert-message {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  /* padding: 7px; */
+  width: 500px;
+  margin-left: 20px;
+  /* margin: -4px; */
+}
+.alert-msg {
+  /* padding-top: 2px; */
+  padding-left: 12px;
+  padding-bottom: 11px;
+}
+
+.fa-comment {
+  color: #0ca1f6;
+  font-size: 17px;
+  background-color: #eaf4ff;
+  padding: 10px;
+  border-radius: 90%;
+  height: 36px;
+}
+
+.fa-lightbulb-o {
+  color: #cbda46; /* Icon color */
+  font-size: 15px;
+  background-color: #f1eec4f8;
+  padding: 10px;
+  border-radius: 90%;
+  height: 33px;
+}
+.left-side {
+  display: flex;
+  align-items: center;
+  padding-bottom: 110px;
+}
+
+.right-side {
+  flex-grow: 1;
+}
+.th {
+  padding-bottom: 20px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.fa-bell1 {
+  color: #0ca1f6;
+  font-size: 18px;
+  font-weight: 400px;
+}
+.fa-chevron-down1 {
+  color: #0ca1f6;
+}
+
+.reminder-options {
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.reminder-options span {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.reminder-options select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+}
+.reminder select {
+  border: none;
+  border-bottom: 1px solid #91969a;
+  background: transparent;
+  font-size: inherit;
+  width: 120px;
+  padding: 0;
+  margin: 0;
+  /* appearance: none; */
+  outline: none;
+  cursor: pointer;
+}
+.record {
+  margin-left: 20px;
+}
+
+.box {
+  width: 100%;
+  height: 240px;
+  border: 1px solid white;
+  padding: 20px;
+  /* margin: -7px; */
+  background-color: #eaf4ff;
+  /* font-family: Manrope; */
+  font-style: normal;
+
+  font-size: 14px;
+  text-transform: capitalize;
+  line-height: 19px;
+  color: rgba(4, 76, 157, 1);
+  font-weight: 500;
+}
+.predefined {
+  padding-left: 4px;
+  font-weight: 400;
+}
+
+/* audio-recorder */
+
+@import "~font-awesome/css/font-awesome.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.container {
+  text-align: left;
+  /* margin-left: 40px; */
+}
+
+.alert-message {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  /* padding: 7px; */
+  width: 500px;
+  /* margin: -4px; */
+}
+.alert-msg {
+  padding-top: 13px;
+  padding-left: 8px;
+}
+
+.fa-lightbulb-o {
+  color: #cbda46; /* Icon color */
+  font-size: 15px;
+  background-color: #f9f7e0f8;
+  padding: 10px;
+  border-radius: 90%;
+  height: 33px;
+}
+.remind {
+  display: inline;
+}
+.last {
+  display: inline;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.audio-controls {
+  margin-bottom: 20px;
+}
+
+.rectangle-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 110px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 13px;
+}
+
+.fa-dot-circle-o:before {
+  font-size: 24px;
+}
+.fa-stop:before {
+  font-size: 20px;
+}
+
+.table {
+  padding-right: 0px;
+}
+
+.message {
+  color: #044c9d;
+  font-style: normal;
+  font-display: unset;
+  font-size: 15px;
+  /* text-transform: capitalize; */
+  line-height: 19px;
+  color: rgba(4, 76, 157, 1);
+  font-weight: 800;
+}
+.record-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.stop-button {
+  background-color: #dc3545;
+  color: #fff;
+  width: 90px;
+  height: 40px;
+  padding-left: 15px;
+}
+.delete-button {
+  background-color: #ffc107;
+}
+.audio {
+  display: flex;
+  align-items: center;
+}
+/* Add Font Awesome icons styling (adjust as needed) */
+.rectangle-button i {
+  font-size: 16px; /* Adjust the font size to make the icon smaller */
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+/* ... Your existing CSS styles ... */
+
+.spacer {
+  padding-left: 60px;
+  color: #dc3545;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.fa-trash-o {
+  font-size: 24px;
+}
+
+/* You can adjust the colors and styles to match your design */
+
+/* Add hover effect if desired */
+.rectangle-button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+.progress-container {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0; /* Background color for the progress bar container */
+  border-radius: 5px;
+  margin-top: 10px; /* Add margin for spacing */
+}
+
+/* Progress bar */
+.progress-bar {
+  width: 0; /* Initial width is 0, will be dynamically adjusted */
+  height: 100%;
+  background-color: #28a745; /* Green color for the progress bar */
+  border-radius: 7px;
+  transition: width 1s linear; /* Smooth animation for width changes */
+}

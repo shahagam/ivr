@@ -1,13 +1,370 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>IVR</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8" />
+    <title>Best Pharmacy Software | Cloud Based Pharmacy Solution | Retail Pharmacy Billing | CRM for Retail Pharmacy |
+        Medical Store software</title>
+    <base href="/" />
+    <meta name="description"
+        content="Revolutionary cloud based GST billing & inventory management system for Modern Pharmacy. Easy onboarding with data backup and cloud security. Alternatives to MedicineERP, Marg, MargBooks, Redbook, CSqaure, Samarth, Skyways, VisualSoft, MyBillBook, Vyapar and many more" />
+    <meta property="og:title" content="Best Pharmacy Software | Cloud Based Pharmacy Solution | Retail Pharmacy Billing | CRM for Retail Pharmacy | Medical Store software"/>
+    <meta property="og:description" content="Revolutionary cloud based GST billing & inventory management system for Modern Pharmacy. Easy onboarding with data backup and cloud security.">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="article" />
+    <meta name="keywords"
+        content="gst billing, bill software, invoice software, evitalrx, evitalrx billing software, stock software, easy billing, tally alternative, mobile billing, gst software, visual soft alternative, retail pharmacy erp, sale invoices, retail pharmacy billing software, retail pharmacy software, marg software alternatives, marg book alternatives, pharmacy software, pharmacy billing software, csv import, cloud pharmacy software, stock management software, reduce data entry" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <link rel="shortcut icon" sizes="192x192" href="assets/images/Favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" />
+        
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.theme.css" />
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/image-zoom.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLGClu9vNgCNtrR_KpLnziKewF5o1kGyw&libraries=places"></script>
+    <!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<!-- Calendly badge widget end -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    
+    <link rel="stylesheet" href="assets/css/fontawesome_6_1.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive_style.css" />
+    <link rel="stylesheet" href="assets/css/print.css" />
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".custom-control").on("click", "button", function () {
+                var $this = $(this);
+                var slideNum = $(this).data("slide");
+                $("#owl-example").trigger("owl.goTo", slideNum);
+            });
+
+            function moved() {
+                var owl = $("#owl-example").data("owlCarousel");
+                var $buttons = $(".custom-control button");
+                $buttons.removeClass("active").removeAttr("disabled");
+                $(".custom-control")
+                    .find('[data-slide="' + owl.currentItem + '"]')
+                    .addClass("active")
+                    .attr("disabled", "disabled");
+            }
+        });
+
+        // Profile Menu
+        var TOUCH = "ontouchstart" in window;
+        if (TOUCH) {
+            $("body").on(
+                "touchstart",
+                ".profile-menu .mobile-nav-btn",
+                function (e) {
+                    e.preventDefault();
+                    $(this).parents(".profile-menu").toggleClass("open");
+                }
+            );
+
+            [].forEach.call(document.querySelectorAll(".modal"), function (
+                el
+            ) {
+                el.addEventListener("click", function (e) {
+                    if (!e.target.classList.contains("modal-contain") &&
+                        getParents(e.target, ".modal-contain").length == 0
+                    ) {
+                        var hideAllModal = true;
+
+                        if (document.querySelector("#userType-modal")) {
+                            let userChemistModal = document.querySelector(
+                                "#userType-modal"
+                            ).classList;
+                            if (
+                                userChemistModal.contains(
+                                    "user-chemist-modal"
+                                ) &&
+                                userChemistModal.contains("open")
+                            ) {
+                                hideAllModal = false;
+                            }
+                        }
+
+                        if (hideAllModal) {
+                            closeModal(e.target.closest(".modal"));
+                        }
+                    }
+                });
+            });
+        } else {
+            $("body").on(
+                "click",
+                ".profile-menu .mobile-nav-btn",
+                function (e) {
+                    e.preventDefault();
+                    $(this).parents(".profile-menu").toggleClass("open");
+                }
+            );
+        }
+    </script>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="theme-color" content="#1976d2" />
+    <!-- Mixpannel Snippet init code -->
+
+    <script>
+        (function (c, a) {
+            if (!a.__SV) {
+                var b = window;
+                try {
+                    var d,
+                        m,
+                        j,
+                        k = b.location,
+                        f = k.hash;
+                    d = function (a, b) {
+                        return (m = a.match(RegExp(b + "=([^&]*)"))) ?
+                            m[1] :
+                            null;
+                    };
+                    f &&
+                        d(f, "state") &&
+                        ((j = JSON.parse(
+                            decodeURIComponent(d(f, "state"))
+                        )),
+                            "mpeditor" === j.action &&
+                            (b.sessionStorage.setItem("_mpcehash", f),
+                                history.replaceState(
+                                    j.desiredHash || "",
+                                    c.title,
+                                    k.pathname + k.search
+                                )));
+                } catch (n) { }
+                var l, h;
+                window.mixpanel = a;
+                a._i = [];
+                a.init = function (b, d, g) {
+                    function c(b, i) {
+                        var a = i.split(".");
+                        2 == a.length && ((b = b[a[0]]), (i = a[1]));
+                        b[i] = function () {
+                            b.push(
+                                [i].concat(
+                                    Array.prototype.slice.call(arguments, 0)
+                                )
+                            );
+                        };
+                    }
+                    var e = a;
+                    "undefined" !== typeof g
+                        ?
+                        (e = a[g] = []) :
+                        (g = "mixpanel");
+                    e.people = e.people || [];
+                    e.toString = function (b) {
+                        var a = "mixpanel";
+                        "mixpanel" !== g && (a += "." + g);
+                        b || (a += " (stub)");
+                        return a;
+                    };
+                    e.people.toString = function () {
+                        return e.toString(1) + ".people (stub)";
+                    };
+                    l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(
+                        " "
+                    );
+                    for (h = 0; h < l.length; h++) c(e, l[h]);
+                    var f = "set set_once union unset remove delete".split(
+                        " "
+                    );
+                    e.get_group = function () {
+                        function a(c) {
+                            b[c] = function () {
+                                call2_args = arguments;
+                                call2 = [c].concat(
+                                    Array.prototype.slice.call(
+                                        call2_args,
+                                        0
+                                    )
+                                );
+                                e.push([d, call2]);
+                            };
+                        }
+                        for (
+                            var b = {},
+                            d = ["get_group"].concat(
+                                Array.prototype.slice.call(arguments, 0)
+                            ),
+                            c = 0; c < f.length; c++
+                        )
+                            a(f[c]);
+                        return b;
+                    };
+                    a._i.push([b, d, g]);
+                };
+                a.__SV = 1.2;
+                b = c.createElement("script");
+                b.type = "text/javascript";
+                b.async = !0;
+                b.src =
+                    "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+                        MIXPANEL_CUSTOM_LIB_URL :
+                        "file:" === c.location.protocol &&
+                            "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(
+                                /^\/\//
+                            ) ?
+                            "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" :
+                            "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+                d = c.getElementsByTagName("script")[0];
+                d.parentNode.insertBefore(b, d);
+            }
+        })(document, window.mixpanel || []);
+    </script>
+    <!-- Zoho Marketing Hub Snippet -->
+    <script>
+        var w = window;
+        var p = w.location.protocol;
+        if (p.indexOf("http") < 0) {
+            p = "http" + ":";
+        }
+        var d = document;
+        var f = d.getElementsByTagName('script')[0],
+            s = d.createElement('script');
+        s.type = 'text/javascript';
+        s.async = false;
+        if (s.readyState) {
+            s.onreadystatechange = function () {
+                if (s.readyState == "loaded" || s.readyState == "complete") {
+                    s.onreadystatechange = null;
+                    try {
+                        loadwaprops("3z2128a3f809397e9b84e4b2ac231116a4", "3z1c5dc5e3d7e96f19a7dcf201cce6bce4", "3zae2db8bd39dfd1f0f5b8cf03fc00026b103dd7b34f7025727201c10cffbb1219", "3z40ce9f8ac3564c30084fcd27ee5fd53d", "0.0");
+                    } catch (e) { }
+                }
+            };
+        } else {
+            s.onload = function () {
+                try {
+                    loadwaprops("3z2128a3f809397e9b84e4b2ac231116a4", "3z1c5dc5e3d7e96f19a7dcf201cce6bce4", "3zae2db8bd39dfd1f0f5b8cf03fc00026b103dd7b34f7025727201c10cffbb1219", "3z40ce9f8ac3564c30084fcd27ee5fd53d", "0.0");
+                } catch (e) { }
+            };
+        };
+        s.src = p + "//mh.zoho.in/hub/js/WebsiteAutomation.js";
+        f.parentNode.insertBefore(s, f);
+    </script>
 </head>
-<body>
-  <app-root></app-root>
+
+<body onload="FreshworksWidget('hide', 'launcher');">
+    <app-root></app-root>
+    <noscript>Please enable JavaScript to continue using this
+        application.
+    </noscript>
+    <div id="btnloader" class="jinloader timeline_scroll_loader hide">
+        <p style="font-weight: 600" class="fa-spin fa fa-circle-notch"></p>
+    </div>
 </body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-154897519-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-154897519-1", "auto");
+</script>
+<!-- End of Global site tag (gtag.js) - Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+            i[r] ||
+            function () {
+                (i[r].q = i[r].q || []).push(arguments);
+            }),
+            (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+    })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+    );
+
+    ga("create", "UA-154897519-1", "auto"); // Change the UA-ID to the one you got from Google Analytics
+</script>
+<!-- Freshdesk widget Snippet -->
+<script>
+    window.fwSettings = {
+        widget_id: 82000000519,
+    };
+    !(function () {
+        if ("function" != typeof window.FreshworksWidget) {
+            var n = function () {
+                n.q.push(arguments);
+            };
+            (n.q = []), (window.FreshworksWidget = n);
+        }
+    })();
+</script>
+<script type="text/javascript" src="https://ind-widget.freshworks.com/widgets/82000000519.js" async defer></script>
+<!-- Zoho Pagesense Snippet -->
+<script>
+    window.pagesense = window.pagesense || [];
+
+    if (localStorage.getItem('chemistIdentity') && localStorage.getItem('chemistIdentity') != '' && localStorage.getItem('chemistIdentity') != undefined) {
+        window.pagesense.push(['identifyUser', localStorage.getItem('chemistIdentity')]);
+    }
+</script>
+<script async defer src="https://apis.google.com/js/api.js"></script>
+<script>
+    function onScriptLoad(data){
+        document.getElementById('btnloader').classList.remove('hide');
+        var config = {
+          "root": "",
+          "flow": "DEFAULT",
+          "data": {
+          "orderId": data.order_id, /* update order id */
+          "token": data.txnToken, /* update token value */
+          "tokenType": "TXN_TOKEN",
+          "amount": "100" /* update amount */
+          },
+          "handler": {
+            "notifyMerchant": function(eventName,data){
+              console.log("notifyMerchant handler function called");
+              console.log("eventName => ",eventName);
+              console.log("data => ",data);
+            } 
+          }
+        };
+        if(window.Paytm && window.Paytm.CheckoutJS){
+            console.log('enter in paytm check');
+            // window.Paytm.CheckoutJS.onLoad(function excecuteAfterCompleteLoad() {
+                // initialze configuration using init method 
+                window.Paytm.CheckoutJS.init(config).then(function onSuccess() {
+                    // after successfully updating configuration, invoke JS Checkout
+                    window.Paytm.CheckoutJS.invoke();
+                }).catch(function onError(error){
+                    console.log("error => ",error);
+                });
+            // });
+            setTimeout(() => {
+                document.getElementById('btnloader').classList.add('hide');
+            }, 100);
+        } 
+    }
+  </script>
 </html>

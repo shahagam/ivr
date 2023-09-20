@@ -8,3 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'IVR';
 }
+// isOpen = false;
+// isChecked: boolean = false;
+// breadcrumbItems: MenuItem[] = [];

@@ -1,0 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+@page { margin: 0cm !important; }
+*{font-family: Manrope; font-style: normal;  padding: 0; margin: 0; box-sizing: border-box;}
+body.jprint-page{margin : 0cm !important; padding: 6mm 7mm 5mm 5mm; position: relative !important;}

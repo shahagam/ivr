@@ -1,0 +1,1750 @@
+@media screen and (min-width: 769px) {
+	.no-desktop {
+		display: none !important
+	}
+}
+@media (min-width: 576px) {
+	.popupalerts .popupcontent {
+		max-width: 360px;
+		padding: 12px;
+	}
+	.col-sm {
+		-ms-flex-preferred-size: 0;
+		flex-basis: 0;
+		-ms-flex-positive: 1;
+		-webkit-box-flex: 1;
+		flex-grow: 1;
+		max-width: 100%;
+	}
+	.col-sm-auto {
+		-ms-flex: 0 0 auto;
+		-webkit-box-flex: 0;
+		flex: 0 0 auto;
+		width: auto;
+		max-width: 100%;
+	}
+	.col-sm-1 {
+		-ms-flex: 0 0 8.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 8.333333%;
+		max-width: 8.333333%;
+	}
+	.col-sm-2 {
+		-ms-flex: 0 0 16.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 16.666667%;
+		max-width: 16.666667%;
+	}
+	.col-sm-3 {
+		-ms-flex: 0 0 25%;
+		-webkit-box-flex: 0;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.col-sm-4 {
+		-ms-flex: 0 0 33.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+	.col-sm-5 {
+		-ms-flex: 0 0 41.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 41.666667%;
+		max-width: 41.666667%;
+	}
+	.col-sm-6 {
+		-ms-flex: 0 0 50%;
+		-webkit-box-flex: 0;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col-sm-7 {
+		-ms-flex: 0 0 58.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 58.333333%;
+		max-width: 58.333333%;
+	}
+	.col-sm-8 {
+		-ms-flex: 0 0 66.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 66.666667%;
+		max-width: 66.666667%;
+	}
+	.col-sm-9 {
+		-ms-flex: 0 0 75%;
+		-webkit-box-flex: 0;
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+	.col-sm-10 {
+		-ms-flex: 0 0 83.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 83.333333%;
+		max-width: 83.333333%;
+	}
+	.col-sm-11 {
+		-ms-flex: 0 0 91.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 91.666667%;
+		max-width: 91.666667%;
+	}
+	.col-sm-12 {
+		-ms-flex: 0 0 100%;
+		-webkit-box-flex: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.order-sm-first {
+		-ms-flex-order: -1;
+		-webkit-box-ordinal-group: 0;
+		order: -1;
+	}
+	.order-sm-last {
+		-ms-flex-order: 13;
+		-webkit-box-ordinal-group: 14;
+		order: 13;
+	}
+	.order-sm-0 {
+		-ms-flex-order: 0;
+		-webkit-box-ordinal-group: 1;
+		order: 0;
+	}
+	.order-sm-1 {
+		-ms-flex-order: 1;
+		-webkit-box-ordinal-group: 2;
+		order: 1;
+	}
+	.order-sm-2 {
+		-ms-flex-order: 2;
+		-webkit-box-ordinal-group: 3;
+		order: 2;
+	}
+	.order-sm-3 {
+		-ms-flex-order: 3;
+		-webkit-box-ordinal-group: 4;
+		order: 3;
+	}
+	.order-sm-4 {
+		-ms-flex-order: 4;
+		-webkit-box-ordinal-group: 5;
+		order: 4;
+	}
+	.order-sm-5 {
+		-ms-flex-order: 5;
+		-webkit-box-ordinal-group: 6;
+		order: 5;
+	}
+	.order-sm-6 {
+		-ms-flex-order: 6;
+		-webkit-box-ordinal-group: 7;
+		order: 6;
+	}
+	.order-sm-7 {
+		-ms-flex-order: 7;
+		-webkit-box-ordinal-group: 8;
+		order: 7;
+	}
+	.order-sm-8 {
+		-ms-flex-order: 8;
+		-webkit-box-ordinal-group: 9;
+		order: 8;
+	}
+	.order-sm-9 {
+		-ms-flex-order: 9;
+		-webkit-box-ordinal-group: 10;
+		order: 9;
+	}
+	.order-sm-10 {
+		-ms-flex-order: 10;
+		-webkit-box-ordinal-group: 11;
+		order: 10;
+	}
+	.order-sm-11 {
+		-ms-flex-order: 11;
+		-webkit-box-ordinal-group: 12;
+		order: 11;
+	}
+	.order-sm-12 {
+		-ms-flex-order: 12;
+		-webkit-box-ordinal-group: 13;
+		order: 12;
+	}
+	.offset-sm-0 {
+		margin-left: 0;
+	}
+	.offset-sm-1 {
+		margin-left: 8.333333%;
+	}
+	.offset-sm-2 {
+		margin-left: 16.666667%;
+	}
+	.offset-sm-3 {
+		margin-left: 25%;
+	}
+	.offset-sm-4 {
+		margin-left: 33.333333%;
+	}
+	.offset-sm-5 {
+		margin-left: 41.666667%;
+	}
+	.offset-sm-6 {
+		margin-left: 50%;
+	}
+	.offset-sm-7 {
+		margin-left: 58.333333%;
+	}
+	.offset-sm-8 {
+		margin-left: 66.666667%;
+	}
+	.offset-sm-9 {
+		margin-left: 75%;
+	}
+	.offset-sm-10 {
+		margin-left: 83.333333%;
+	}
+	.offset-sm-11 {
+		margin-left: 91.666667%;
+	}
+}
+@media (min-width: 768px) {
+	.col-md {
+		-ms-flex-preferred-size: 0;
+		flex-basis: 0;
+		-ms-flex-positive: 1;
+		-webkit-box-flex: 1;
+		flex-grow: 1;
+		max-width: 100%;
+	}
+	.col-md-auto {
+		-ms-flex: 0 0 auto;
+		-webkit-box-flex: 0;
+		flex: 0 0 auto;
+		width: auto;
+		max-width: 100%;
+	}
+	.col-md-1 {
+		-ms-flex: 0 0 8.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 8.333333%;
+		max-width: 8.333333%;
+	}
+	.col-md-2 {
+		-ms-flex: 0 0 16.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 16.666667%;
+		max-width: 16.666667%;
+	}
+	.col-md-3 {
+		-ms-flex: 0 0 25%;
+		-webkit-box-flex: 0;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.col-md-4 {
+		-ms-flex: 0 0 33.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+	.col-md-5 {
+		-ms-flex: 0 0 41.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 41.666667%;
+		max-width: 41.666667%;
+	}
+	.col-md-6 {
+		-ms-flex: 0 0 50%;
+		-webkit-box-flex: 0;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col-md-7 {
+		-ms-flex: 0 0 58.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 58.333333%;
+		max-width: 58.333333%;
+	}
+	.col-md-8 {
+		-ms-flex: 0 0 66.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 66.666667%;
+		max-width: 66.666667%;
+	}
+	.col-md-9 {
+		-ms-flex: 0 0 75%;
+		-webkit-box-flex: 0;
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+	.col-md-10 {
+		-ms-flex: 0 0 83.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 83.333333%;
+		max-width: 83.333333%;
+	}
+	.col-md-11 {
+		-ms-flex: 0 0 91.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 91.666667%;
+		max-width: 91.666667%;
+	}
+	.col-md-12 {
+		-ms-flex: 0 0 100%;
+		-webkit-box-flex: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.order-md-first {
+		-ms-flex-order: -1;
+		-webkit-box-ordinal-group: 0;
+		order: -1;
+	}
+	.order-md-last {
+		-ms-flex-order: 13;
+		-webkit-box-ordinal-group: 14;
+		order: 13;
+	}
+	.order-md-0 {
+		-ms-flex-order: 0;
+		-webkit-box-ordinal-group: 1;
+		order: 0;
+	}
+	.order-md-1 {
+		-ms-flex-order: 1;
+		-webkit-box-ordinal-group: 2;
+		order: 1;
+	}
+	.order-md-2 {
+		-ms-flex-order: 2;
+		-webkit-box-ordinal-group: 3;
+		order: 2;
+	}
+	.order-md-3 {
+		-ms-flex-order: 3;
+		-webkit-box-ordinal-group: 4;
+		order: 3;
+	}
+	.order-md-4 {
+		-ms-flex-order: 4;
+		-webkit-box-ordinal-group: 5;
+		order: 4;
+	}
+	.order-md-5 {
+		-ms-flex-order: 5;
+		-webkit-box-ordinal-group: 6;
+		order: 5;
+	}
+	.order-md-6 {
+		-ms-flex-order: 6;
+		-webkit-box-ordinal-group: 7;
+		order: 6;
+	}
+	.order-md-7 {
+		-ms-flex-order: 7;
+		-webkit-box-ordinal-group: 8;
+		order: 7;
+	}
+	.order-md-8 {
+		-ms-flex-order: 8;
+		-webkit-box-ordinal-group: 9;
+		order: 8;
+	}
+	.order-md-9 {
+		-ms-flex-order: 9;
+		-webkit-box-ordinal-group: 10;
+		order: 9;
+	}
+	.order-md-10 {
+		-ms-flex-order: 10;
+		-webkit-box-ordinal-group: 11;
+		order: 10;
+	}
+	.order-md-11 {
+		-ms-flex-order: 11;
+		-webkit-box-ordinal-group: 12;
+		order: 11;
+	}
+	.order-md-12 {
+		-ms-flex-order: 12;
+		-webkit-box-ordinal-group: 13;
+		order: 12;
+	}
+	.offset-md-0 {
+		margin-left: 0;
+	}
+	.offset-md-1 {
+		margin-left: 8.333333%;
+	}
+	.offset-md-2 {
+		margin-left: 16.666667%;
+	}
+	.offset-md-3 {
+		margin-left: 25%;
+	}
+	.offset-md-4 {
+		margin-left: 33.333333%;
+	}
+	.offset-md-5 {
+		margin-left: 41.666667%;
+	}
+	.offset-md-6 {
+		margin-left: 50%;
+	}
+	.offset-md-7 {
+		margin-left: 58.333333%;
+	}
+	.offset-md-8 {
+		margin-left: 66.666667%;
+	}
+	.offset-md-9 {
+		margin-left: 75%;
+	}
+	.offset-md-10 {
+		margin-left: 83.333333%;
+	}
+	.offset-md-11 {
+		margin-left: 91.666667%;
+	}
+}
+@media (min-width: 992px) {
+	.col-lg {
+		-ms-flex-preferred-size: 0;
+		flex-basis: 0;
+		-ms-flex-positive: 1;
+		-webkit-box-flex: 1;
+		flex-grow: 1;
+		max-width: 100%;
+	}
+	.main-content .sidebar {
+		top: 60px;
+	}
+	.col-lg-auto {
+		-ms-flex: 0 0 auto;
+		-webkit-box-flex: 0;
+		flex: 0 0 auto;
+		width: auto;
+		max-width: 100%;
+	}
+	.col-lg-1 {
+		-ms-flex: 0 0 8.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 8.333333%;
+		max-width: 8.333333%;
+	}
+	.col-lg-2 {
+		-ms-flex: 0 0 16.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 16.666667%;
+		max-width: 16.666667%;
+	}
+	.col-lg-3 {
+		-ms-flex: 0 0 25%;
+		-webkit-box-flex: 0;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.col-lg-4 {
+		-ms-flex: 0 0 33.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+	.col-lg-5 {
+		-ms-flex: 0 0 41.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 41.666667%;
+		max-width: 41.666667%;
+	}
+	.col-lg-6 {
+		-ms-flex: 0 0 50%;
+		-webkit-box-flex: 0;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col-lg-7 {
+		-ms-flex: 0 0 58.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 58.333333%;
+		max-width: 58.333333%;
+	}
+	.col-lg-8 {
+		-ms-flex: 0 0 66.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 66.666667%;
+		max-width: 66.666667%;
+	}
+	.col-lg-9 {
+		-ms-flex: 0 0 75%;
+		-webkit-box-flex: 0;
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+	.col-lg-10 {
+		-ms-flex: 0 0 83.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 83.333333%;
+		max-width: 83.333333%;
+	}
+	.col-lg-11 {
+		-ms-flex: 0 0 91.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 91.666667%;
+		max-width: 91.666667%;
+	}
+	.col-lg-12 {
+		-ms-flex: 0 0 100%;
+		-webkit-box-flex: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.order-lg-first {
+		-ms-flex-order: -1;
+		-webkit-box-ordinal-group: 0;
+		order: -1;
+	}
+	.order-lg-last {
+		-ms-flex-order: 13;
+		-webkit-box-ordinal-group: 14;
+		order: 13;
+	}
+	.order-lg-0 {
+		-ms-flex-order: 0;
+		-webkit-box-ordinal-group: 1;
+		order: 0;
+	}
+	.order-lg-1 {
+		-ms-flex-order: 1;
+		-webkit-box-ordinal-group: 2;
+		order: 1;
+	}
+	.order-lg-2 {
+		-ms-flex-order: 2;
+		-webkit-box-ordinal-group: 3;
+		order: 2;
+	}
+	.order-lg-3 {
+		-ms-flex-order: 3;
+		-webkit-box-ordinal-group: 4;
+		order: 3;
+	}
+	.order-lg-4 {
+		-ms-flex-order: 4;
+		-webkit-box-ordinal-group: 5;
+		order: 4;
+	}
+	.order-lg-5 {
+		-ms-flex-order: 5;
+		-webkit-box-ordinal-group: 6;
+		order: 5;
+	}
+	.order-lg-6 {
+		-ms-flex-order: 6;
+		-webkit-box-ordinal-group: 7;
+		order: 6;
+	}
+	.order-lg-7 {
+		-ms-flex-order: 7;
+		-webkit-box-ordinal-group: 8;
+		order: 7;
+	}
+	.order-lg-8 {
+		-ms-flex-order: 8;
+		-webkit-box-ordinal-group: 9;
+		order: 8;
+	}
+	.order-lg-9 {
+		-ms-flex-order: 9;
+		-webkit-box-ordinal-group: 10;
+		order: 9;
+	}
+	.order-lg-10 {
+		-ms-flex-order: 10;
+		-webkit-box-ordinal-group: 11;
+		order: 10;
+	}
+	.order-lg-11 {
+		-ms-flex-order: 11;
+		-webkit-box-ordinal-group: 12;
+		order: 11;
+	}
+	.order-lg-12 {
+		-ms-flex-order: 12;
+		-webkit-box-ordinal-group: 13;
+		order: 12;
+	}
+	.offset-lg-0 {
+		margin-left: 0;
+	}
+	.offset-lg-1 {
+		margin-left: 8.333333%;
+	}
+	.offset-lg-2 {
+		margin-left: 16.666667%;
+	}
+	.offset-lg-3 {
+		margin-left: 25%;
+	}
+	.offset-lg-4 {
+		margin-left: 33.333333%;
+	}
+	.offset-lg-5 {
+		margin-left: 41.666667%;
+	}
+	.offset-lg-6 {
+		margin-left: 50%;
+	}
+	.offset-lg-7 {
+		margin-left: 58.333333%;
+	}
+	.offset-lg-8 {
+		margin-left: 66.666667%;
+	}
+	.offset-lg-9 {
+		margin-left: 75%;
+	}
+	.offset-lg-10 {
+		margin-left: 83.333333%;
+	}
+	.offset-lg-11 {
+		margin-left: 91.666667%;
+	}
+}
+@media (min-width: 1200px) {
+	.col-xl {
+		-ms-flex-preferred-size: 0;
+		flex-basis: 0;
+		-ms-flex-positive: 1;
+		-webkit-box-flex: 1;
+		flex-grow: 1;
+		max-width: 100%;
+	}
+	.col-xl-auto {
+		-ms-flex: 0 0 auto;
+		-webkit-box-flex: 0;
+		flex: 0 0 auto;
+		width: auto;
+		max-width: 100%;
+	}
+	.col-xl-1 {
+		-ms-flex: 0 0 8.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 8.333333%;
+		max-width: 8.333333%;
+	}
+	.col-xl-2 {
+		-ms-flex: 0 0 16.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 16.666667%;
+		max-width: 16.666667%;
+	}
+	.col-xl-3 {
+		-ms-flex: 0 0 25%;
+		-webkit-box-flex: 0;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.col-xl-4 {
+		-ms-flex: 0 0 33.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+	}
+	.col-xl-5 {
+		-ms-flex: 0 0 41.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 41.666667%;
+		max-width: 41.666667%;
+	}
+	.col-xl-6 {
+		-ms-flex: 0 0 50%;
+		-webkit-box-flex: 0;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col-xl-7 {
+		-ms-flex: 0 0 58.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 58.333333%;
+		max-width: 58.333333%;
+	}
+	.col-xl-8 {
+		-ms-flex: 0 0 66.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 66.666667%;
+		max-width: 66.666667%;
+	}
+	.col-xl-9 {
+		-ms-flex: 0 0 75%;
+		-webkit-box-flex: 0;
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+	.col-xl-10 {
+		-ms-flex: 0 0 83.333333%;
+		-webkit-box-flex: 0;
+		flex: 0 0 83.333333%;
+		max-width: 83.333333%;
+	}
+	.col-xl-11 {
+		-ms-flex: 0 0 91.666667%;
+		-webkit-box-flex: 0;
+		flex: 0 0 91.666667%;
+		max-width: 91.666667%;
+	}
+	.col-xl-12 {
+		-ms-flex: 0 0 100%;
+		-webkit-box-flex: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.order-xl-first {
+		-ms-flex-order: -1;
+		-webkit-box-ordinal-group: 0;
+		order: -1;
+	}
+	.order-xl-last {
+		-ms-flex-order: 13;
+		-webkit-box-ordinal-group: 14;
+		order: 13;
+	}
+	.order-xl-0 {
+		-ms-flex-order: 0;
+		-webkit-box-ordinal-group: 1;
+		order: 0;
+	}
+	.order-xl-1 {
+		-ms-flex-order: 1;
+		-webkit-box-ordinal-group: 2;
+		order: 1;
+	}
+	.order-xl-2 {
+		-ms-flex-order: 2;
+		-webkit-box-ordinal-group: 3;
+		order: 2;
+	}
+	.order-xl-3 {
+		-ms-flex-order: 3;
+		-webkit-box-ordinal-group: 4;
+		order: 3;
+	}
+	.order-xl-4 {
+		-ms-flex-order: 4;
+		-webkit-box-ordinal-group: 5;
+		order: 4;
+	}
+	.order-xl-5 {
+		-ms-flex-order: 5;
+		-webkit-box-ordinal-group: 6;
+		order: 5;
+	}
+	.order-xl-6 {
+		-ms-flex-order: 6;
+		-webkit-box-ordinal-group: 7;
+		order: 6;
+	}
+	.order-xl-7 {
+		-ms-flex-order: 7;
+		-webkit-box-ordinal-group: 8;
+		order: 7;
+	}
+	.order-xl-8 {
+		-ms-flex-order: 8;
+		-webkit-box-ordinal-group: 9;
+		order: 8;
+	}
+	.order-xl-9 {
+		-ms-flex-order: 9;
+		-webkit-box-ordinal-group: 10;
+		order: 9;
+	}
+	.order-xl-10 {
+		-ms-flex-order: 10;
+		-webkit-box-ordinal-group: 11;
+		order: 10;
+	}
+	.order-xl-11 {
+		-ms-flex-order: 11;
+		-webkit-box-ordinal-group: 12;
+		order: 11;
+	}
+	.order-xl-12 {
+		-ms-flex-order: 12;
+		-webkit-box-ordinal-group: 13;
+		order: 12;
+	}
+	.offset-xl-0 {
+		margin-left: 0;
+	}
+	.offset-xl-1 {
+		margin-left: 8.333333%;
+	}
+	.offset-xl-2 {
+		margin-left: 16.666667%;
+	}
+	.offset-xl-3 {
+		margin-left: 25%;
+	}
+	.offset-xl-4 {
+		margin-left: 33.333333%;
+	}
+	.offset-xl-5 {
+		margin-left: 41.666667%;
+	}
+	.offset-xl-6 {
+		margin-left: 50%;
+	}
+	.offset-xl-7 {
+		margin-left: 58.333333%;
+	}
+	.offset-xl-8 {
+		margin-left: 66.666667%;
+	}
+	.offset-xl-9 {
+		margin-left: 75%;
+	}
+	.offset-xl-10 {
+		margin-left: 83.333333%;
+	}
+	.offset-xl-11 {
+		margin-left: 91.666667%;
+	}
+}
+
+/* @media(min-width:1600px){
+	.content-area{max-width: 1600px; margin: 0 auto;}
+} */
+
+@media(max-width: 1500px){
+    .content-area .content-full.pick-up-enquiries .lk-row.lk-desc .take-action:before{border: 0px; width: auto;}
+    .morning_time, .evening_time{width: 30%}
+    .time_day{width: 20%}
+    .pick-up .pick-up-order{margin-left: 0px;}
+    .order-no-info .order-status{ margin-top: 15px;}
+    .order-no-info .order-status.accepted{margin-right: auto;}
+	.cdk-overlay-pane.cdk-overlay-pan-alternatives-menu{ width: 700px !important; right: 0 !important; left: auto !important;}
+}
+@media(max-width: 1400px){
+    .pick-up-enquiries .lk-row .orderno{width: 30%;}
+    .pick-up-enquiries .lk-row .order-rejected{width: 22%;}
+    .pick-up-enquiries.enquiries-status .lk-row .orderno{width: 20%}
+    .jsales-order-list-group{width: 75%;}
+    .jsales-order-list-block .jsales-order-amount{width: 18%;}
+    .jorder-medicine-head .jmedicine-button, .jorder-medicine-head .jmedicine-qty{ margin-top: 15px;}
+    .jorder-medicine-head .jorder-distributor-search, .jorder-medicine-head .jorder-medicine-search{width: 49%;}
+    .jorder-medicine-head .jorder-distributor-search{margin-right: 0;}
+    .jrequest-dist.jmedicine-head-col{justify-content: flex-start; margin-top: 15px;}
+    .lbanner-slider .owl-nav button.owl-prev {left: -50px;}
+	.lbanner-slider .owl-nav button.owl-next { right: -50px; }
+	.jsales-order-details-break div.jsales-order-details-break-left > div{padding-right: 15px; margin-right: 15px;}
+}
+@media(max-width: 1334px)
+{
+.pick-up-confirmed .pick-up-order-group {width: 100%;}
+.pick-up .pick-up-order{margin-left: 0px; margin-top: 20px;}
+.pick-up-confirmed .pick-up-order-group .pick-up-order{margin-left: 0px; margin-top: 20px;}
+.pick-up-confirmed .order-no-info .order-status p{margin-left: 0px}
+.pick-up-confirmed .order-no-info .order-status:last-child p{margin-left: 10px;}
+.pick-up .order-customer-info .oc-mobile, .pick-up .order-customer-info .oc-name{margin-right: 30px;}
+.jmedicinetab .jsales-order-list-block .jsales-order-date{width: 35%;}
+.lbanner-slider .owl-nav button.owl-prev {left: -30px;}
+.lbanner-slider .owl-nav button.owl-next { right: -30px;}
+.jsales-order-details-break div.jsales-order-details-break-left > div{padding-right: 10px; margin-right: 10px;}
+.jsales-order-details-break span{margin-right: 5px;}
+.jcash-calculate-remain span{margin-left: 10px;}
+.jcash-calculate input{padding: 0px 10px;}
+.cdk-overlay-pane.cdk-overlay-pane-medicine-search{width: 640px !important;}
+}
+
+@media(max-width: 1260px){
+    .jlanding-page h3{font-size: 28px;}
+    .container{padding: 0px 30px;}
+	.custom-control{top: 26.5em; left: 32em;}
+	.jsales-order-details-break div, .jsales-order-details-break span{font-size: 13px;}
+	.jsales-order-details-break{margin:0px; width:100%; left: 0;}
+	.jso-item-search-suggestion-group > div.jso-item-stock{padding-right: 0px;}
+}
+
+@media(max-width: 1200px){
+	.jchemist-profile { padding-top: 72px; }
+	.extra-search-items ul { flex-direction: column; }
+    .page { min-height: auto; } 
+    .main-content {display: block;}
+	.site-header { z-index: 999; left: 0; right: 0; top: 0; }
+    .site-header .right .item, .jheader-rewards{margin-right: 20px;}
+    .jheader-menu-group{margin: 0px 20px;}
+    .jheader-rewards-text{display: none;}
+    .jheader-rewards-icon{margin-right: 0px;}
+    .jinventory-item-list-block .jmd-batch{width: 13%;}
+    .jinventory-item-list-block .jmd-qty{width: 10%;}
+    .jinventory-item-list-block .jmd-exp-date,.jinventory-item-list-block .jmd-mrp, .jinventory-item-list-block .jmd-totalmrp, .jinventory-item-list-block .jmd-purerate{width: 15%;}
+	.jinventory-item-list-block .jmd-totalptr{width: 17%;}
+	.cdk-overlay-pane.cdk-overlay-pane-medicine-search{width: 630px !important;}
+	
+}
+@media(max-width: 1160px){
+        .faq-content-inner{padding: 40px;}
+        .custom-control{left: 31em;}
+		.owl-slide-content{padding-top: 30px;}
+    }
+
+@media(max-width: 1120px){
+        .custom-control{top: 27.5em; left: 30em;}
+        .header-nav ul li{padding: 0px 15px;}
+        .header-login-btn button{margin-left: 30px !important;}
+    }
+@media(max-width: 1100px){
+    .jsales-order-details-desc .jsod-group{padding: 15px 0px 0px 20px;}
+    .jpadd-order-details .jsales-patient-details{padding: 20px 20px !important;}
+    .drop-down .selected a{width: 140px;}
+    .jgraph-head-block:first-child{width: 140px; margin-right: 20px;}
+	.jgraph-head-block{width: 38%;}
+	.cdk-overlay-pane.cdk-overlay-pane-medicine-search{width: 580px !important;}
+}
+@media(max-width: 1040px){
+    .jap-content-block-right{max-width: 615px;}
+}
+
+@media(max-width: 1024px){
+    .pick-up-enquiries.enquiries-status .lk-row .order-rejected{display: none;}
+    .pick-up-enquiries.enquiries-status .lk-row.lk-desc .take-action{margin-left: auto;}
+    .pick-up-enquiries.enquiries-status .lk-row .mobileno{width: 22%}
+    .searchbox-container{position: fixed; bottom: 50px; left: 20px; visibility: hidden; opacity: 0; transition: all .3s ease; pointer-events: none; }
+    .open-sidebar .searchbox-container{visibility: visible;opacity: 1;pointer-events: auto;}
+    .site-header .searchbox-container input[type="text"]{width: 200px;z-index: 11;}
+    .pick-up .order-details-container .order-blocks{flex: none; width: 100%; margin-right: 0px;}
+    .pick-up .order-summary-block{width: 100%; max-width: 100%; margin-top: 40px;}
+    .order-details-container{flex-wrap: wrap;}
+    .pick-up-confirmed .pick-up-order-group {width: auto;}
+    .pick-up-confirmed .pick-up-order-group .pick-up-order, .pick-up .pick-up-order{ margin-left: 10px;}
+    .pick-up-confirmed .order-no-info .pick-up-issue{display: block; margin-left: 10px; padding-bottom: 0px;}
+    .pick-up-confirmed .pick-up-issue a{display: inline-block;}
+    .pick-up .order-details-container .order-summary{max-width: 100%;}
+    .profile-menu { padding: 0; position: relative }
+    .profile-menu .mobile-nav-btn { display: block; position: absolute; right: 9px; top: 12px; z-index: 1; padding: 13px 18px }
+    .profile-menu .mobile-nav-btn .fas { margin-right: 0 }
+    .profile-menu ul li { display: none; width: 100%; max-width: 100%;}
+    .profile-menu.open ul li{display: block; width: 100%;}
+    .profile-menu ul li a{text-align: left; }
+    .profile-menu ul{ display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+    .profile-menu ul li.active{ -webkit-box-ordinal-group: 0; -ms-flex-order: -1; order: -1;display: block; }
+    .jap-content-block-left, .jap-content-block-right{width: 100%;}
+    .jap-content-licence-documnets .jap-content-block-right, .jap-content-licence-documnets .jap-content-block-left{max-width: 100%;}
+    .jsavecontinue .jap-content-block-right {max-width: 266px;}
+    .jap-content-licence-documnets .jap-content-block-left{margin-bottom: 20px;}
+    .japc-left-details{padding-right: 0px;}
+    .jap-content-block-left h6{padding-top: 0px; padding-bottom: 25px;}
+    .joffer .joffer-left{width: 100%;}
+    .joffer .joffer-right{width: 100%; margin-left: auto; left: 0; display: none; transition: all ease 0.5s; overflow: auto; height: 100%;  position: absolute; z-index: 99;}
+    .joffer-leaderboard-btn{display: block;}
+    .joffer.joffer-state .joffer-left { width: 65%; }
+    .joffer.joffer-state .joffer-right{width: 32%; margin-left: 3%;}
+    .joffer-right .joffer-leaderboard-head:first-child .jol-head-right{width: auto; margin-top: 0px;}
+    .joffer.joffer-state .joffer-right{position: relative; display: block; }
+    .joffer .joffer-right.jol-open { display: block; position: fixed; top: auto; bottom: -1px; height: 490px; overflow: auto; }
+    .jlanding-page h2{font-size: 38px;}
+    .owl-carousel .owl-slide{flex-wrap: wrap;}
+    .owl-slide-img, .owl-slide-content{width: 100%;}
+    .owl-slide-img{margin-top: 30px; text-align: center; height: 530px !important; background-position: top center}
+    .owl-slide-content{padding-left: 0px;}
+    .custom-control {position: absolute; bottom: 3em; z-index: 99; left: 0px; top: unset;}
+    .footer{padding: 60px 0px;}
+    .jlanding-page .header{padding: 25px 0px; min-height: auto;}
+    .banner{margin-top: 30px;}
+    .about-us-inner{padding: 40px 0px 80px;}
+    .jorder-medicine-selected-list .jom-selected-row, .jom-selected-row .jom-selected-block{flex-wrap: wrap; align-items: unset;}
+    .jom-selected-row .jom-selected-group1, .jorder-medicine-selected-list .jom-selected-row, .jom-selected-row .jom-selected-block{align-items: flex-end;}
+    .jom-selected-row .jom-selected-medicine-name{width: 100%; padding-bottom: 5px;}
+    .jom-selected-row .jom-selected-group1, .jom-selected-row .jom-selected-group2 { width: 50%;}
+    .jorder-medicine-selected-list .jom-selected-row.jom-selected-list-head{display: none;}
+    .cdk-overlay-pane.cdk-pane-jmedicine-suggestion-box{max-width: 640px;}
+    .jorder-checkout .jom-selected-row .jom-selected-medicine-name{width: 100%;}
+    .jorder-checkout .jom-selected-row .jom-selected-group1, .jorder-checkout .jom-selected-row .jom-selected-group2{width: 50%;}
+    .lsuccess-stories button{bottom: 8px;}
+    .lsuccess-stories button.owl-next{left: unset; right: 0;}
+    .lsuccess-stories button.owl-prev{left: unset; right: 40px;}
+}
+
+@media(max-width: 992px){
+    .jmedicinetab .jsales-order-list-head{display: none;}
+    .jlanding-page .joffer.header{padding: 15px;}
+    .pick-up-enquiries .lk-row{align-items: unset;}
+    .pick-up-enquiries .lk-row.lk-head{display: none;}
+    .pick-up-enquiries .lk-row .pickup-patient-detail {flex-direction: column; text-align: left; align-items: unset;}
+    .pick-up-enquiries .lk-row.lk-desc .take-action{text-align: right; }
+    .pick-up-enquiries .lk-row .pickup-patient-detail{width: 50%}
+    .pick-up-enquiries .lk-row .pickup-patient-detail > div{width: 100%; }
+    .pick-up-enquiries .lk-row{padding: 15px 30px}
+    .pick-up-enquiries .lk-row .profile img{width: 35px; height: 35px;}
+    .pickup-confirmed .content-full.pick-up-enquiries.jcompleted-order-list .lk-row .order-rejected{display: none;}
+    .pick-up-confirmed .pick-up-order-group{width: 100%; margin: 20px 0px 10px; }
+    .pick-up-confirmed .pick-up-order-group .pick-up-order:first-child{margin-left: 0px;}
+    .morning_time, .evening_time{width: 35%}
+    .time_day{width: 25%}
+    .jgraph{display: none;}
+    .jdashboard-content-right{width: 100%; margin-top: 40px;}
+    .jdashboard-content-left {width: 100%; margin-right: 0; }
+    .jnotification-add.modal{top: 0px;}
+    .pick-up-enquiries .lk-row .orderno{width: 27%;}
+    .pick-up-enquiries .lk-row .orderid{width: 17%;}
+    .jsales-order-list-desc .jsales-order-date span{display: block;}
+    .jsales-order-details-break .jsod-break-net{margin-right: 20px;}
+    .jsod-itemdetails-group{width: 100%; padding: 10px 0px 0px;}
+    .jsod-gross-title{padding-bottom: 10px;}
+    .jsod-group{flex-wrap: wrap;}
+    .jsales-order-details-desc:last-child .jsod-group, .jsales-order-details-desc:last-child .jsod-amount{min-height: unset; padding-bottom: 20px;}
+    .jsales-order-details-head .jsod-group{display: none;}
+    .jsales-order-details-block .jsod-itemname{width: 94%}
+    .jsales-order-details-gross-discount.jsales-order-details-desc .jsod-group, .jsales-order-details-gross-discount.jsales-order-details-desc .jsod-amount{min-height: unset; padding: 0px; height: auto !important;}
+    .jsales-order-details-block .jsod-baseprice{text-align: left;}
+    .jsales-order-details-desc .jsales-order-details-block-left:last-child .jsod-amount{height: auto !important;}
+    .jsales-order .lt-header .left{flex-direction: column;}
+    .jinventory-item-warn{margin: 15px 0px; min-width: 200px;}
+    .jinventory-item-list-block .jil-itemname{width: 100%; padding-bottom: 15px;}
+    .jinventory-item-list-block{flex-wrap: wrap;}
+    .jinventory-item-list-block .jil-purrate, .jinventory-item-list-block .jil-sellprice{width: 17%}
+    .jinventory-item-list-block .jil-mrp, .jinventory-item-list-block .jil-expdate{width: 20%}
+    .jinventory-item-list-block .jil-batch{width: 15%}
+    .jinventory-item-list-head.jinventory-item-list-block{display: none;}
+    .jsales-order-details-desc div.jsod-itemname{padding-bottom: 10px;}
+    .jsod-itemdetails-block2, .jsod-itemdetails-block1{width: 50%; }
+    .jsales-order-details-head .jsod-amount{display: none;}
+    .jso-item-search{padding: 0px 20px 0px 0px;}
+    .jso-item-search .jso-form-field{width: 50%}
+    .jsod-break-total-qty{width: 23%; margin-left: 0;}
+    .joffer .container{padding: 0px;}
+    .jlanding-page .joffer .container{padding: 0px 0px;}
+    .joffer-state .joffer-left{padding-right: 0px;}
+    .joffer.joffer-state .joffer-right{position: relative; display: block; order: 1; width: 100%; margin-left: 0px; margin-bottom: 20px;}
+    .joffer.joffer-state .joffer-left{position: relative; display: block; order: 2; width: 100%;}
+    .josr-date-time, .joffer-right .joffer-refer-by-social{display: none;}
+    .joffer-state-refer-head{border-bottom: 0;}
+    .jos-referral .jos-active-referral p br.hide, .jos-referral .jos-total-referral p br.hide{display: none !important;}
+    .jlanding-page h2{font-size: 36px;}
+    .jlanding-page h3{font-size: 26px;}
+    .jlanding-page h4{font-size: 22px;}
+    .sell-on-vitalrx{padding: 70px 0px;}
+    .footer-inner{padding-bottom: 40px}
+    .footer-block{width: 33.33%; margin-bottom: 40px;}
+    .footer-block:last-child{margin-bottom: 0px;}
+    .header-nav ul li{padding: 0px 10px;}
+    .header-nav ul li a{font-size: 16px;}
+    .header-nav ul li:last-child{padding-left: 30px;}
+    .sell-on-vitalrx-block-img{width: 90px; height: 90px;}
+    .faq-content-left{width: 100%; padding-right: 0px;}
+    .faq-content-right{width: 100%; padding-left:0px; margin-left: 0px; }
+    .faq .faq-content-left{position: relative !important; top: 0 !important;}
+    .faq .manage-pharmacy-left{padding: 30px 0px 60px;}
+    .faq-content{margin-top: -18em;}
+    .faq .header{height: 430px;}
+    .safety-and-priority-left {padding-top: 60px; width: 100%; padding-bottom: 40px; }
+    .safety-and-priority-right {width: 100%; margin: 0 auto; text-align: center; }
+    .jpurchase-order-list .jsales-order-list-block .jsales-order-no { width: 30%; }
+    .jpurchase-order-list .jsales-order-list-block .jsales-order-date { width: 34%; }
+    .jpurchase-order-list .jsales-order-list-block .jsales-order-patient { width: 36%; }
+    .jsales-order-amount.jdue-amount span{display: none;}
+    .jsales-order-list-desc .jsales-order-amount.jamount-margin, .jsales-order-list-block .jsales-order-amount, .jpurchase-order-list .jsales-order-list-head .jsales-order-amount.jamount-margin{padding-right: 0px;}
+    .jsales-order-list-block .jsales-order-edit{justify-content: flex-end; padding-right: 0px; text-align: right;}
+    .jsales-order-list-block .jsales-order-edit p{margin-right: 0px;}
+    .jsales-order-list-head .jsales-order-amount.jamount-margin, .jonline-purchase-row .jo-purchase-order-amount, .jpurchase-order-details .jsales-order-details-block .jsod-gst{text-align: right;}
+    .jsales-order-list-group{width: 79%;}
+    .jsales-order-list-block .jsales-order-amount{width: 14%;}
+    .jsales-order-amount.jdue-amount{align-items: unset;}
+    .jinventory-head{padding: 20px 20px 10px;}
+    .jinventory-item-list-desc-group{height: calc(100vh - 312px);}
+    .jinventory-head .jsales-order-search{width: 30%;}
+    .jinventory-item-list-block .jil-medicine, .jinventory-item-list-block .jil-unit{width: 100%; padding-bottom: 5px;}
+    .jinventory-item-list-block .jil-manufacture{width: 35%;}
+    .jinventory-item-list-block .jil-qty-on-hand{width: 15%;}
+    .jinventory-item-list-block .jil-total-by-mrp, .jonline-purchase-row .jo-purchase-order-date, .jinventory-item-list-block .jil-total-by-ptr{width: 25%;}
+    .jshow-result{padding: 0px 20px;}
+    .jonline-purchase-row{padding: 12px 20px;}
+    .jonline-purchase-row.jonline-purchase-head{display: none;}
+    .jonline-purchase-row .jo-purchase-order-no, .jpurchase-patient-details.jp-details .jsales-patient-details-left{width: 100%; margin-bottom: 10px;}
+    .jonline-purchase-row .jo-purchase-order-status, .jonline-purchase-row .jo-purchase-order-amount{width: 20%;}
+    .gray-shadow.gray-shadow-with-header-button{height: auto;}
+    .jsales-order-details-break .jsod-break-net{width: auto; margin-right: 0;}
+    .jpurchase-order-details .jsales-order-details-block .jsod-unit, .jpurchase-order-details .jsod-disc, .jpurchase-order-details .jsales-order-details-block .jsod-qty, .jpurchase-order-details .jsod-fr{text-align: left;}
+    .jsales-order-details-block .jsod-itemdetails-group{flex-wrap: wrap;}
+    .jpurchase-order-details .jsales-order-details-block .jsod-itemdetails-group > div{width: 20%; margin-bottom: 10px; word-break:break-word;}
+    .jsales-order-details-desc .jsod-amount{padding: 15px 20px 15px 0px;}
+    .jpurchase-patient-details .jsales-patient-details-left{width: 100%; margin-right: 0px; margin-bottom: 15px;}
+    .jsales-order-details-block .jsod-pack, .jnpr-order .jsod-itemdetails-group{width: 100%;}
+    .jnew-sales-order-detail .jsales-order-details-block .jsod-pack{width: 100%; margin-bottom: 10px;}
+    .jsales-order-details-block .jsod-edit input{text-align: left;}
+    .jnew-sales-order-detail .jsod-itemdetails-block1, .jnew-sales-order-detail .jsod-itemdetails-block2{width: 50%;}
+    .jsales-order-details-desc .jsod-amount button{  width: 100%; order: 2; text-align: right;}
+    .jsales-order-details-desc .jsod-amount.jsod-add{padding: 14px 20px 0px 0px;}
+    .jpadd-order-details.jpurchase-order-details .jsales-order-details-block .jsod-itemdetails-group > div{width: 25%;}
+    .jpadd-order-details.jpurchase-order-details .jsales-order-details-block .jsod-itemdetails-group .jsod-unit{width: 100%;}
+    .jpadd-order-details .jsod-itemdetails-group .jsod-disc{text-align: right;}
+    .jrequest-dist.jmedicine-head-col{width: 100%; justify-content: flex-start; margin-top: 10px;}
+    .jno-dist-found.jmedicine-head-col{width: 38%;}
+    .jsales-order-details .jsales-order-details-block .jsod-itemdetails-block1,  .jsales-order-details .jsales-order-details-block .jsod-itemdetails-block2{width: 50%;}
+    .jorder-medicine-head .jorder-distributor-search, .jorder-medicine-head .jorder-medicine-search, .jno-dist-found.jmedicine-head-col{width: 100%; margin-right: 0;}
+    .jorder-medicine-head .jorder-distributor-search{margin-top: 15px;}
+    .jo-bottom-total-amount, .jo-bottom-total-qty, .jo-bottom-total-item{width: 30%;}
+    .jorder-medicine-selected-list{padding-top: 20px;}
+    .jom-selected-list-desc  .jom-selected-medicine-remove{padding-right: 0px;}
+    .jsales-order-details-break .jsod-break-total-gst{width: 22%;}
+    .jcustomer-view-block .jcv-medicine{width: 100%; margin-bottom: 15px;}
+    .jcustomer-view-block{flex-wrap: wrap;}
+    .jcustomer-view-block .jcv-pack, .jcustomer-view-desc .jcv-bought{width: 33.33%;}
+    .jcustomer-view-head{display: none;}
+    .jsales-order-list-desc-group, .jnew-sales-order-detail .jsales-order-list-desc-group{height: auto;}
+    .header-login-btn button{padding: 5px 15px; font-size: 16px; height: 34px; margin-left: 15px !important;}
+    .deskboard-content .order-links .item { width: calc(50% - 5px); max-width: inherit; margin-right: 0; margin-bottom: 10px; height: 87px; display: flex; }
+	.deskboard-content .order-links .item a { font-size: 12px; }
+	.site-header .text-logo img { height: 34px; }
+    .main-content .content-area { padding: 25px; } 
+    .deskboard-content .dashboard-reports { margin-right: 0; }
+	.deskboard-content .order-links { margin-left: 0; margin-bottom: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; }
+    .deskboard-content .order-links .item:last-child { margin-right: 0; } 
+    .modal .modal-contain { margin-top: 50px; width: 90%; padding: 20px; }
+	.modal .modal-contain .modal-header { margin-bottom: 20px; }
+    .modal .modal-contain .modal-header .item.name { font-size: 18px; } 
+    .order-modal-body { display: block; } 
+    .order-modal-body .left { padding: 0; border: 0; margin-bottom: 30px; }
+	.order-modal-body .right { padding: 0; }
+	.order-modal-body .name { font-size: 16px; }
+	.firm-form .submit-item { margin-top: 0; text-align: center; margin-top: 15px; }
+	.submit-btn { font-size: 16px; }
+	.lt-header.referral-statistics { display: flex; }
+	.lrf-box .lrf-content { padding: 0px 50px 35px; }
+	.lrf-box .header { padding-left: 50px; padding-right: 50px; }
+	.lrf-box { width: 440px; }
+	.lrf-desc-left { width: calc(100% - 440px) }
+}
+
+@media(max-width: 876px){
+    .jap-content-discount-block{flex-direction: column; margin-right: 0px; margin-bottom: 30px;}
+    .jsales-order .lt-header .right.jheader-only-button{width: 100%}
+    .jsales-order .lt-header .right.jheader-only-button button:first-child{margin-left: 0px;}
+    .jsales-order .lt-header .right.jheader-only-button{padding-top: 10px;}
+    .jsales-order .lt-header{flex-wrap: wrap;}
+    .nav > .nav-btn {display: inline-block; order: 2;}
+    .nav > .nav-links {position: fixed;  display: block; width: 100%; background-color: #fff;  height: 0px; transition: all 0.3s ease-in; overflow-y: hidden; top: -100px; left: 0px; transition: all ease 0.3s; z-index: 999; transform: translateY(-100%);}
+    .nav > .nav-links > a {display: block; width: 100%; }
+    .nav > #nav-check:not(:checked) ~ .nav-links {height: 0px; }
+    .nav > #nav-check:checked ~ .nav-links {min-height:300px; top: 88px; transition:all ease 0.3s ; overflow-y: auto; transform: translateY(0);}
+    .nav > .nav-btn > label {display: inline-block; width: 50px; height: 44px; padding: 13px; position: relative;}
+    .nav > .nav-btn > label > span {display: block; width: 25px; height: 10px; border-top: 2px solid #fff; transition: all ease 0.3s;}
+    .nav > #nav-check:checked ~ .nav-btn > label > span{position: absolute;}
+    .nav > #nav-check:checked ~ .nav-btn > label > span:first-child{transform: rotate(135deg); margin-top: 0; top: 15px; left: 12px;}
+    .nav > #nav-check:checked ~ .nav-btn > label > span:last-child{transform: rotate(-135deg); top: 15px; left: 18px;} 
+    .nav > #nav-check:checked ~ .nav-btn > label > span:nth-child(2){display: none   ;}
+    .header-login-btn{margin-left: auto;}
+    .header-nav ul li{display: block; padding-bottom: 10px; padding-top: 10px;}
+    .header-nav ul li:last-child{border:0;}
+    .header-nav ul li a{color: #111111; font-weight: 700; }
+    .header-nav ul li:last-child{padding: 10px 10px !important;}
+    .header-nav ul li .mat-menu-trigger.mat-button {font-size: 16px; color: #111111; padding: 0px; font-weight: 700; height: 0px; }
+    }
+@media(max-width: 840px) {
+    .lrf-box { width: 400px;}
+    .lrf-desc-left { width: calc(100% - 400px) }
+    }
+@media(max-width: 800px){
+    .pick-up-enquiries .lk-row{flex-wrap: wrap;}
+    .pick-up-enquiries .lk-row .orderid{width: 100%; padding-bottom: 10px;}
+    .pick-up-enquiries .lk-row.lk-desc .take-action{margin-left: auto;}
+    .pick-up-enquiries .lk-row .mobileno{width: 18%}
+    .pick-up-enquiries .lk-row .orderno{width: 34%;}
+    .pick-up-enquiries.enquiries-status .lk-row .orderno{width: 27%}
+    }
+@media(max-width: 768px)
+    {
+	.jrefresh-dashboard{top: 13px !important;}
+    .pick-up-enquiries .lk-row.lk-desc .order-rejected span{display: none;}
+    .pick-up-enquiries{padding: 0px 0px 15px;}
+    .pick-up-enquiries .lk-row .profile{display: none;}
+    .pick-up .order-medicine-list .ml-left, .pick-up .order-medicine-list .ml-right {width: 100%; background-color: transparent; margin-right: 0px;}
+    .pick-up .order-medicine-list .ml-right{padding:0px 20px;}
+    .pick-up .order-blocks .order-no-info ul{flex-direction: row;}
+    .pick-up .order-medicine-list .ml-right .ml-qty span{display: none;}
+    .pick-up .order-blocks .order-no-info ul li{margin-right: 0px;}
+    .pick-up .order-blocks .order-no-info ul{flex-direction: column;}
+    .pick-up .order-rejected{border: 0; padding-left: 0px;}
+    .pick-up .pick-up-order{ margin-left: 0px; margin-top: 15px;}
+    .pick-up .pick-up-order p{margin-left: 0px;}
+    .morning_time, .evening_time{width: 50%}
+    .jnotification-add.modal{top: 9px;}
+    .pick-up-enquiries .lk-row .order-rejected{width: 50%;}
+    .pick-up-enquiries .lk-row .mobileno{width: 100%}
+    .pick-up-enquiries .lk-row .orderno, .jpurchase-order-list .jsales-order-list-block .jsales-order-date{width: 100%}
+    .pick-up-enquiries.enquiries-status .lk-row .order-status{width: 24%;}
+    .pick-up-enquiries.jcompleted-order-list .lk-row .take-action{width: 20%;}
+    .jsales-order-list-group{flex-direction: column; align-items: unset;}
+    .jsales-order-list-desc .jsales-order-no, .jsales-order-list-desc .jsales-order-date, .jsales-order-list-desc .jsales-order-patient, .jsales-order-list-block .jsales-order-items{width: 100%}
+    .jsales-order-list-desc .jsales-order-no.jsales-bill-no {color: rgba(17, 17, 17, 1); }
+    .jsales-order-list-desc .jsales-order-date span{display: inline-block;}
+    .jsales-order-list-head{display: none;}
+    .jsales-order-list-block {padding: 18px 20px;}
+    .jsales-patient-details-left{width: 100% !important; margin-right: 0px;}
+    .jsales-patient-details-right{width: 100% !important; margin-top: 20px;}
+    .jsales-patient-details{flex-wrap: wrap;}
+    .jpurchase-order-list .jsales-order-list-block .jsales-order-patient{width: 100%}
+    .jnew-purchase-order-item-left .jso-form-field{width: 100%; margin-right: 0px; margin-bottom: 20px;}
+    .jinventory-separator{max-width: 400px;}
+    .jsales-order-details-block .jsod-itemdetails-group{flex-wrap: wrap;}
+    .jpurchase-patient-details .jsales-patient-details-right, .jpurchase-patient-details .jsales-patient-details-left{width: 100%; margin-right: 0px;}
+    .content-area .content-full.jsales-order-details{padding: 0px;}
+    .jso-item-search .jso-form-field{width:100%;}
+    .jsales-order-details-desc .jsod-amount, .jsales-order-details-block-right{width: 120px;}
+    .jsales-order-details-block-left, .jsales-order-details-desc .jsod-group{width: calc(100% - 120px)}
+    .jsales-order-details-desc .jsod-group{ padding: 10px 0px 0px 25px;}
+    .jpadd-order-details .jsales-order-details-gross-discount .jsales-order-details-block-left:first-child .jsod-group{height: 0px !important}
+    .jpadd-order-details
+    .jsales-order-details.jpadd-order-details .jsales-order-details-block-left:first-child .jsod-group, .jpadd-order-details.jsales-order-details .jsales-order-details-block-left:first-child .jsod-amount{height: 130px !important}
+    .jsales-order-details-break{height: auto; padding: 5px 0px 5px 20px}
+    .jsales-order-details-break span{display: block;}
+    .jsales-order-details-block .jsod-qty .fas{right: 17px;}
+    .jnew-sales-order-detail .jsales-order-details-desc .jsod-group{padding: 17px 0px 0px 10px;}
+    .jpurchase-order-details.jpadd-order-details .jsales-order-details-block-left:first-child .jsod-group, .jpurchase-order-details.jpadd-order-details .jsales-order-details-block-left:first-child .jsod-amount{height: 60px !important}
+    .jsod-itemdetails-block2, .jsod-itemdetails-block1{width: 100%;}
+    .jsod-itemdetails-block1{padding-bottom: 10px;}
+    .jsales-patient-details-center{width: 100% !important; padding-top: 15px; margin-right: 0px;}
+    .jsales-order .lt-header .left{align-items: unset;}
+    .jsales-order-list-group{width: 73%}
+    .jsales-order-list-block .jsales-order-amount{width: 21%}
+    .jsales-order-details-group:after, .jnew-purchase-order-item-right:after, .jsales-order-details-break:after{width: 120px}
+    .jsales-order-list-block{align-items: unset;}
+    .jnew-sales-return .jsales-patient-details-center{width: 100%}
+    .jsod-break-total-qty{width: 27%;}
+    .modal.open .modal-contain.modal-qrcode-container { max-width: initial; margin-top: 64px;}
+    .site-header .left { width: 100%; }
+    .jheader-menu-group { position: fixed; top: 10px; width: 140px; right: 0;}
+    .jheader-menu-group .dropdown {width: 100%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+    .site-header .right .jshow-qr.item { justify-content: flex-end; text-align: right; }
+    .site-header .right { margin-top: 20px; width: 100%; }
+    .site-header .right .center{ width: 100%; justify-content: space-between;}
+    
+    .main-content.log-content{padding-top: 0px}
+    .footer-block{width: 50%; margin-bottom: 40px;}
+    .jlanding-page .header{padding: 30px 0px 30px; min-height: auto;}
+    .banner{margin-top: 40px;}
+    .header-nav ul li:hover a{color:#111111;opacity: 0.5}
+    .faq .header-inner{padding: 0px;}
+    .faq .fixed-header{padding: 20px ;}
+    .faq .fixed-header.nav > .nav-btn{right: 16px; top: 19px;}
+    .faq .banner h2{font-size: 32px;}
+    .faq .banner h4{font-size: 22px;}
+    .header .fixed-header.nav > .nav-btn{right: 16px; top: 19px;}
+    .mobile-banner{display: block;}
+    .banner-inner{display: none;}
+    .mobile-banner img {width: 100%; border-radius: 16px;}
+    .banner-bottom{display: none;}
+    .banner-cta a.cta{background-color: #fff; color: #044C9D;}
+    .owl-slide-img{height: 460px !important;}
+    .safety-and-priority-rblock{max-width: 400px; border-width: 20px; margin: 0 auto}
+    .safety-and-priority-rblock1, .safety-and-priority-rblock2{border-width: 20px;}
+    .safety-and-priority-rblock2 img{max-width: 120px;}
+    .safety-and-priority-rblock3{max-width: 280px; height: 280px; line-height: 280px;}
+    .footer-inner{text-align: center;}
+    .jsales-order-list-desc-group{height: calc(100vh - 270px);}
+    .jmedicinetab.jsales-order-list-inner .jinventory-item-list-desc-group{height: calc(100vh - 261px);}
+    .jmedicinetab .jinventory-item-list-desc-group{height: calc(100vh - 254px);}
+    .jsales-order-list-block .jsales-order-edit{padding-right: 0px; padding-left: 15px;}
+    .jinventory-head .jsales-order-search{width: 50%;}
+    .jsales-order .lt-header .right button.jimport-backup{margin-left: 0px;}
+    .jinventory-item-list-block .jmd-batch, .jinventory-item-list-block .jmd-qty, .jinventory-item-list-block .jmd-exp-date, .jinventory-item-list-block .jmd-mrp, .jinventory-item-list-block .jmd-totalmrp, .jinventory-item-list-block .jmd-purerate, .jinventory-item-list-block .jmd-totalptr{width: 25%;}
+    .jinventory-item-list-block .jmd-batch, .jinventory-item-list-block .jmd-qty, .jinventory-item-list-block .jmd-exp-date, .jinventory-item-list-block .jmd-mrp{ margin-bottom: 15px;}
+    .jinventory-item-list-block .jmd-totalmrp, .jinventory-item-list-block .jmd-totalptr, .jsales-order-details-block .jsod-itemdetails-block2 > div, .jpurchase-order-details .jsales-order-details-block .jsod-qty, .jpurchase-order-details .jsod-disc, .jpurchase-order-details .jsod-fr{text-align: left;}
+    .jsales-order-details-block .jsod-itemdetails-block2 .jsod-gst, .jpurchase-order-details .jsales-order-details-block .jsod-gst{text-align: right;}
+    .jsales-order-details .jsales-patient-details{border-bottom: 0px; padding: 15px 20px; margin-bottom: 0px;}
+    .jsales-order-details-break:after{background-color: transparent;}
+    .jsales-patient-details{padding: 15px 20px; margin-bottom: 0px;}
+    .jpadd-order-details .jsod-break-total-item{width: auto;}
+    .jbottomsheet.modal .modal-contain{overflow: auto;}
+    .jbottomsheet.modal .modal-contain{min-height: 100%; height: 400px;}
+    .jsales-order-details-break{ align-items: unset;}
+    .jsales-order-details-break .jsod-amount{padding-top: 0px;}
+    .jsales-order-details-break > div{width: 100% !important; margin-bottom: 10px;}
+    .jsales-order-details-break .jsod-break-net{margin-right: 0px}
+    .jsales-order-details-break span{display: inline-block;}
+    .jsales-order-details-break .jsod-break-net{width: 20% !important; margin-left: 0px;}
+    .jsales-order-details-break .jsod-amount{width: 140px !important; justify-content: flex-end; padding-right: 20px; margin-left: auto;}
+    .jsales-order-details-break > div p{padding: 0px 20px 0px 0px; margin-left: auto;}
+    .jsales-order-details-break .jsod-break-net{justify-content: flex-start;}
+    .jnew-sales-order-detail .jsod-itemdetails-block1, .jnew-sales-order-detail .jsod-itemdetails-block2{width: 100%;}
+    .jnew-sales-order-detail .jsod-itemdetails-block1 > div, .jnew-sales-order-detail .jsod-itemdetails-block2 > div{width: 25% !important;}
+    .jorder-medicine-head .jorder-medicine-search{width: 100%; margin-bottom: 10px;}
+    .jno-dist-found.jmedicine-head-col{width: 100%;}
+    .cdk-overlay-pane.cdk-pane-jmedicine-suggestion-box{max-width: 645px;}
+    .cdk-overlay-pane.cdk-pane-jmedicine-suggestion-box{width: 80% !important;}
+    .jo-bottom-total-item, .jo-bottom-total-qty, .jo-bottom-total-amount{width: auto;}
+    .jnew-sales-order-detail .jsales-order-details-break .jcash-calculate{margin-right: 20px; height: 40px;}
+    .jcash-calculate-inner{width: 100%;}
+    .order-customer-info .oc-name, .order-customer-info .oc-mobile,.order-customer-info .oc-address{width: 100%;}
+    .jsod-itemdetails-block1 > div, .jsod-itemdetails-block2 > div{padding-right: 10px;}
+    .jsales-order-details .jsales-order-details-block .jsod-itemdetails-block1, .jsales-order-details .jsales-order-details-block .jsod-itemdetails-block2{width: 100%;}
+    .jpurchase-patient-details.jp-details .jsales-patient-details-right{width: 100%;}
+    .jorder-medicine-head .jmedicine-row{padding: 19px 20px;}
+    .jom-selected-row .jom-selected-group1{padding-bottom: 10px;}
+    .jom-selected-row .jom-selected-group1, .jom-selected-row .jom-selected-group2 { width: 100%;}
+    .jom-selected-row .jom-selected-group1 > div, .jom-selected-row .jom-selected-group2 > div{width: 25%;}
+    .jorder-medicine-selected-list .jom-selected-row{padding: 12px 20px;}
+    .jorder-medicine-selected-title{padding: 0px 20px;}
+    .jorder-bottom-count-group{flex-direction: column; width: 100%; height: auto; align-items: unset; padding: 20px 20px 0px;}
+    .jorder-bottom-count-group > div{margin-left: 0px; margin-bottom: 10px;}
+    .jorder-bottom-count-group > div span{margin-left: auto;}
+    .jo-bottom-continue-btn button, .jo-bottom-continue-btn{width: 100%;}
+    .jo-bottom-continue-btn{position: fixed; bottom: 0;}
+    .jmedicine-suggestion-box .jsuggestion-row{flex-wrap: wrap;}
+    .jsuggestion-row .jom-medicine-name{width: 100%; margin-bottom: 5px;}
+    .jsuggestion-row .jom-medicine-pack, .jsuggestion-row .jom-medicine-mrp{width: 25%;}
+    .jsuggestion-row .jom-medicine-manufacture{width: 50%;}
+    .jmedicine-suggestion-head.jsuggestion-row{display: none;}
+    .jorder-checkout .jom-selected-row .jom-selected-group1, .jorder-checkout .jom-selected-row .jom-selected-group2{width: 100%;}
+    .jorder-checkout .jom-selected-row .jom-selected-medicine-mrp, .jorder-checkout .jom-selected-row .jom-selected-medicine-ptr{width: 50%;}
+    .jorder-checkout .jorder-bottom-count-group, .jorder-bottom-count.jorder-checkout-total-count .jorder-bottom-count-group{padding: 0px 20px;}
+    .jorder-checkout .jo-bottom-total-amount, .jorder-checkout-total-count .jo-bottom-total-amount{margin-left: 0; justify-content: flex-start; width: 100%;}
+    .jorder-checkout .jorder-bottom-count .jo-bottom-total-amount span{margin-left: auto;}
+    .jorder-checkout .jo-bottom-total-item, .jorder-checkout .jo-bottom-total-qty, .jorder-checkout .jo-bottom-total-amount{padding-right: 0px;}
+    .jorder-bottom-count-group > div:last-child{margin-bottom: 0px;}
+    .jorder-bottom-count.jorder-checkout-total-count .jorder-bottom-count-group{width: 100%; margin-right: 0px; margin-bottom: 50px;}
+    .jcheckout-onedist  .jorder-bottom-count-group{margin-bottom: 0px;}
+    .jorder-bottom-count-group{margin-bottom: 50px;}
+    .gray-shadow.content-full.jorder-checkout.jcheckout-onedist{height: auto;}
+    .jmedicinetab .jsales-order-list-head .jsales-order-amount.jamount-margin{padding-right: 0px;}
+    .lbanner-slider .owl-nav button.owl-prev {left: -20px;}
+    .lbanner-slider .owl-nav button.owl-next { right: -20px; }
+    .main-content .sidebar{top:114px; }
+    .main-content .sidebar-content{padding-top: 0px;}
+    .pick-up .om-desc.order-medicine-list { margin-bottom: 5px; }
+    .lrf-box .lrf-content { padding: 0px 40px 35px; } 
+    .lrf-box .header { padding-left: 40px; padding-right: 40px; }
+	.lrf-box { width: 380px; height: calc(100vh - 70px) }
+	.lrf-desc-left { width: calc(100% - 380px); height: calc(100vh - 70px) }
+	.lk-table .lk-row .lk-td.otime { display: none; }
+	.lt-header.page-action-buttons { display: none; }
+	.order-details-modal { margin-top: 10px; }
+	.order-modal-body .map { display: none; }
+	.no-mobile { display: none !important; }
+	.lrf-logo { top: 40px; text-align: center; }
+	.lrf-logo .text-logo, .site-header .text-logo { font-size: 18px; }
+	.site-header { flex-direction: column; }
+	.site-header .right .item { margin-right: 17px; font-size: 12px; }
+	.site-header .right .item.date { display: none; }
+	.site-header .noti-icon {  width: 24px;  font-size: 12px; }
+	.sidebar .sidebar-content .menu ul li a:after { bottom: -7px; }
+	.sidebar .sidebar-content .menu ul li.has-submenu.open { margin-bottom: 15px; }
+	.sidebar .sidebar-content .menu ul ul { margin-top: 15px; }
+    .main-content .content-area { padding: 15px; } 
+    .dashboard-reports .dashboard-reports-inner { padding: 20px 15px; }
+	.dashboard-reports .filter ul li { margin-right: 2px; }
+	.dashboard-reports .earnings-graph-container { display: block; margin-top: 0; }
+	.dashboard-reports .earnings { margin-top: 20px; }
+	.dashboard-reports .earnings .item { display: block; margin-right: 0; margin-bottom: 15px; }
+	.dashboard-reports .earnings .item:last-child { margin-bottom: 0; }
+	.dashboard-reports .earnings .weight { font-size: 24px; }
+	.dashboard-reports .graph { margin-top: 20px; }
+	.deskboard-content .order-links { margin-bottom: 15px; }
+	.deskboard-content .order-links .item .weight { font-size: 24px; margin-bottom: 5px; }
+	.deskboard-content .order-links .item .icon { font-size: 30px; top: 10px; right: 10px; -webkit-transform: none; transform: none; }
+	.lt-header { margin-bottom: 15px; display: block; }
+	.lt-header .title, .page-title { font-size: 18px; }
+	.page-title { margin-bottom: 20px; }
+	.lt-header .table-search input { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; width: 100%; }
+	.lt-header .table-search .search { font-size: 16px; }
+    .lt-header .right { margin-top: 10px; } 
+    .lt-header .table-search { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; flex-wrap: wrap; }
+	.listing-table td { padding: 5px 10px; }
+	.firm-form-container .item { display: block; }
+	.firm-form-container .item .name { margin-bottom: 15px; width: 100%; }
+	.site-header .dropdown { padding: 0; }
+    .site-header .dropdown ul { top: calc(100% + 10px); } 
+    .notification.notification-fixed { min-width: 80%; }
+	.table-search .search-item { width: 100%; display: flex; margin: 0; margin-bottom: 5px; }
+	.lk-table { display: block; }
+	.lk-table .lk-row { display: block; border-bottom: 1px solid rgba(17, 17, 17, .1); padding: 15px 0 35px 0; }
+	.lk-table .lk-row:last-child { border: 0; }
+	.lk-table .lk-row .lk-td { display: block; border-bottom: 0; padding: 0; vertical-align: inherit; }
+	.lk-table .oid { margin-bottom: 10px; }
+	.lk-td.obtns { bottom: 0px; left: 0; right: 0; display: flex !important; justify-content: space-between; }
+	.lk-td.obtns span { width: 48%; text-align: center; }
+    .lk-table .pmnumber { position: absolute; bottom: 30px; left: 50px; } 
+    .lk-table .otime { position: absolute; top: 15px; right: 0; }
+	.lk-td.odtime { position: absolute; top: 36px; right: 0; }
+    .lk-table .patients-info { font-weight: 600; float: left; width: 70%; } 
+    .lk-table .patients-info .img { vertical-align: top; } 
+    .lk-table .otatal { float: right; width: 30%; text-align: right; font-size: 16px; margin-top: 15px; } 
+    .lk-table .lk-row:after { content: ""; display: block; width: 100%; clear: both; } 
+    .pagination a { height: 20px; width: 20px; font-size: 10px; line-height: 20px; } 
+    .pagination a.prev, .profile-menu ul li a span.label { margin-right: 10px; }
+	/*New order details page design by chintan*/
+    .order-details-container { flex-direction: column; padding: 0; } 
+    .order-details-container .order-blocks { margin-bottom: 30px; } 
+    .order-details-container .order-summary { max-width: 100%; } 
+    .order-details-container .order-blocks { margin-right: 0; } 
+    .order-blocks .order-customer-info { flex-direction: column; } 
+    .order-customer-info .oc-name { margin-right: 0; margin-bottom: 14px; } 
+    .order-blocks .order-no-info ul { flex-direction: column; } 
+    .order-blocks .order-no-info ul li { margin-bottom: 5px; } 
+    .order-blocks .order-no-info ul li:last-child { margin-bottom: 0; } 
+    .order-customer-info .oc-mobile { margin-right: 0; margin-bottom: 10px; } 
+    .order-blocks .order-customer-info { margin-bottom: 10px; } 
+    .order-blocks .order-no-info { margin-bottom: 10px; } 
+    .order-blocks .order-customer-info .oc-label label { margin-bottom: 0; } 
+    .order-medicines-container .order-medicine-list.ml-heading { display: none; } 
+    .order-medicines-container .order-medicine-list { flex-direction: column; border: 1px solid #d2d2d2; } 
+    .order-medicine-list .ml-right { background: #f3f3f3; max-width: 100%; margin-top: 10px; padding: 6px 0; border-top: 1px solid #eee; justify-content: space-between; align-items: center; } 
+    .order-medicine-list .ml-left { margin-right: 0; padding: 12px 0 0 10px; } 
+    .order-medicine-list .ml-right .ml-qty { display: flex; width: 40px; margin-left: 10px; } 
+    .order-medicine-list .ml-right .ml-qty span { display: block; margin-right: 9px; } 
+    .order-medicine-list .ml-left .ml-mrp span { display: block; font-size: 12px; font-weight: 600; } 
+    .order-medicine-list .ml-right .ml-amount { margin-right: 10px; text-align: right; } 
+    .order-medicine-list .ml-right .ml-mrp { display: flex; align-items: center; max-width: 160px; margin-left: 10px; } 
+    .order-medicine-list .ml-right .ml-mrp span { display: block; margin-right: 7px; margin-left: 7px; } 
+    .order-medicine-list .ml-right .ml-mrp input[type="text"] { border: 1px solid #044c9d; }
+    .order-details-container .order-medicine-list .discount-box { margin-top: 14px; position: relative; }
+	/*New order details page design by chintan end here*/
+}
+@media(max-width: 700px) {
+	.lrf-box .lrf-content { padding: 0px 40px 35px; }
+	.lrf-box .header { padding-left: 40px; padding-right: 40px; }
+	.lrf-box { width: 350px; }
+	.lrf-desc-left { width: calc(100% - 350px) }
+}
+@media(max-width: 640px){
+    .pick-up-enquiries .lk-row{padding: 15px 10px;}
+    .pick-up-enquiries.enquiries-status .lk-row .orderno{width: 100%}
+    .pick-up-enquiries.enquiries-status .lk-row .mobileno{width: 100%; padding-bottom:10px;}
+    .pick-up-enquiries.enquiries-status .lk-row.lk-desc .take-action{width: 50%}
+    .pick-up-enquiries.enquiries-status.jcompleted-order-list .lk-row .mobileno{width: 50%;}
+    .jsales-order-details-break{ align-items: unset;}
+    .jsales-order-details-break .jsod-amount{padding-top: 0px;}
+    .jsales-order-details-break > div{width: 100% !important; margin-bottom: 10px;}
+    .jsales-order-details-break .jsod-break-net{margin-right: 0px}
+    .jsales-order-details-break span{display: inline-block;}
+    .jsales-order-details-break .jsod-break-net{width: 20% !important; margin-left: 0px;}
+    .jsales-order-details-break .jsod-amount{width: 140px !important; justify-content: flex-end; padding-right: 20px; margin-left: auto;}
+    .jsales-order-details-break > div p{padding: 0px 20px 0px 0px; margin-left: auto;}
+    .site-header .dropdown ul{position: fixed; bottom: 0; top: auto; width: 100%; border-radius: 0;}
+    .joffer-block-content .job-content-item span{font-size: 14px; width: 50%; margin-right: 0px;}
+    .joffer-block-content .job-content-item{font-size: 14px; width: 71%;}
+    .joffer-block-content .job-content-item p{font-size: 14px; width: 50%; padding: 0px 10px;}
+    .joffer-block-content.joffer-block-content-head .job-content-item p{font-size: 14px;}
+    .joffer-block-content .job-content-qty{font-size: 14px; width: 28%;}
+    .joffer-block-content .job-content-item{justify-content: center;}
+    .joffer-block-content .blue-clr{padding: 12px 15px; height: 80px; justify-content: center; text-align: center;}
+    .joffer-block-content .blue-clr.job-content-qty{padding-right: 15px;}
+    .container{padding: 0px 20px;}
+    .jshow-qr p{display: none;}
+    .site-header .dropdown{text-overflow: ellipsis; white-space: nowrap; overflow: hidden; margin-left: auto;}
+    .jheader-sales-button button span{padding: 0px 12px;}
+    .jonline-purchase-row .jo-purchase-order-date{width: 100%; margin-bottom: 10px;}
+    .jonline-purchase-row .jo-purchase-order-distributor, .jpurchase-order-details .jp-details .jsp-left-inner > div{width: 50%;}
+    .jonline-purchase-row .jo-purchase-order-status, .jonline-purchase-row .jo-purchase-order-amount{width: 25%;}
+    .jpurchase-order-details .jp-details .jsp-left-inner > div{margin-right: 0px; margin-bottom: 10px;}
+    .jbottomsheet-hbutton{position: fixed; bottom: 0; left: 0; width: 100%; z-index: 9;}
+    .jbottomsheet-hbutton button{width: 100%;}
+    .jbottomsheet-hremove{margin-left: auto;}
+    .jbottomsheet-content{height: calc(100vh - 68px); overflow: auto;}
+    .jom-selected-row .jom-selected-group1, .jom-selected-row .jom-selected-group2{flex-wrap: wrap;}
+    .jom-selected-row .jom-selected-group1 > div, .jom-selected-row .jom-selected-group2 > div{width: 50%; padding-bottom: 5px;}
+    .jom-selected-row .jom-selected-block{width: calc(100% - 20%);}
+    .jom-selected-row .jom-selected-medicine-amount{width: 15%;}
+    .jom-selected-row .jom-selected-medicine-remove{width: 5%;}
+    .lrf-box { width: 100%; overflow: hidden; height: auto; margin: -100% 00px 0px; background-color: #fff; border-radius: 5px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.165); } 
+    .lrf-desc-left { width: 100%;height: 400px;} 
+    .banner-bottom { display: none } 
+    .lrf-container { width: 100%; margin: 0px 20px 0px; } 
+    .lrf-box .header { padding-left: 20px; padding-right: 20px; } 
+    .lrf-box .lrf-content { padding: 0px 20px 35px; } 
+    .lrf-support .fas { display: block !important; color: #044C9D; font-size: 14px; background-color: #fff; border-radius: 50%; width: 24px; height: 24px; line-height: 24px; } 
+    .lrf-support a { display: none; } 
+    .get-app-on-mobile { display: block !important; }
+}
+@media(max-width: 576px){
+    .pick-up .order-medicine-list .ml-right .ml-mrp{width: 40%;}
+    .jap-content-block-right .form-field{width: 100% !important; margin-bottom: 20px; margin-right: 0px;}
+    .jap-content-block-right .form-field:last-child{margin-bottom: 0px;}
+    .jap-content-inner{padding: 30px 20px}
+    .morning_time, .evening_time{width: 100%; padding-top: 10px; padding-bottom: 20px; margin: 0px;}
+    .select-group.print_group{margin: 0px;} .cls{flex-wrap: wrap;}
+    .jap-content-discount-block-left{margin-right: 30px;}
+    .japc-licence.jap-content-block-right{flex-direction: column;}
+    .jap-content-block-right.japc-licence .form-field{margin-right: 0px;}
+    .jdashboard-content-today-revenue{flex-direction: column;}
+    .jdc-today-revenue-right{margin-left: 0px; margin-top: 30px;}
+    .jdc-today-revenue-left{justify-content: space-between;}
+    .jmissed-order-ruppes{display: none;} .jmissed-order
+    .jdashboard-total-enquiry-details h4{margin-left: auto;}
+    .jap-content-inner .mat-icon-button{left: 91%;}
+    .site-header .dropdown .open-dropdown a span{display: block;}
+    .jshow-qr .fas{font-weight: 18px;}
+    .pick-up-enquiries .lk-row .take-action{width: 50%;}
+    .pick-up .order-medicine-list .ml-right .ml-mrp{width: 30%;}
+    .jsales-order-list-group{width: 70%}
+    .jsales-order-list-block .jsales-order-amount{width: 26%; margin-left: auto;}
+    .jsales-order-list-desc:hover .jsales-order-amount:after{content: ""}
+    .jsales-order-search input{min-width: 100%}
+    .jsales-order .lt-header .right{flex-wrap: wrap;}
+    .jsales-order-search{width: 100%;}
+    .jinventory-separator{max-width: 300px;}
+    .jsp-left-inner{flex-wrap: wrap;}
+    .jadd-purchase-order .jsp-left-inner-ord-no{width: 100%; margin-right: 0px;}
+    .jadd-purchase-order .jsp-left-inner-ord-date{width: 100%;}
+    .jadd-purchase-order .jsp-left-inner, .jadd-purchase-order .jsales-patient-details-right{height: auto;}
+    .jso-form-field{width: 100%; margin-right: 0px;}
+    .jnew-sales-order .jsp-left-inner, .jnew-sales-order .jsales-patient-details-right{height: auto;}
+    .jpurchase-order-details .jsales-order-details-block-left:last-child  .jsod-amount{height: auto !important;}
+    .jsales-order-details-desc .jsod-amount, .jsales-order-details-block-right{width: 95px;}
+    .jsales-order-details-block-left, .jsales-order-details-desc .jsod-group{width: calc(100% - 95px);}
+    .jinventory-item-list-block.jinventory-item-list-desc > div:nth-last-child(n - 3){width: 33.33%; margin-top: 10px;}
+    .jinventory-item-list-block .jil-itemname{width: 100% !important;}
+    .jsales-order-details-block .jsod-qty .fas{right: 37px;}
+    .jso-item-search-suggestion-box{width: auto;}
+    .jsales-order-filter{padding: 20px 20px 0px}
+    .jsales-order-details-group:after, .jnew-purchase-order-item-right:after, .jsales-order-details-break:after{width: 95px;}
+    .jshow-qr p{display: none;}
+    .jheader-sales-button{position: fixed; bottom: 0; width: 100%; left: 0; text-align: center; }
+    .jheader-sales-button button{width: 100%}
+    .jheader-sales-drop{margin-left: auto;}
+    .jheader-sales-button .jorder-drop{top: -142px; left: auto; right: 0; width: 100%; text-align: left; border-radius: 0px;}
+    .joffers-rewards-link{display: block;}
+    .jos-referral .jos-active-referral p br.hide, .jos-referral .jos-total-referral p br.hide{display: block !important;}
+    .jos-referral .jos-active-referral h3, .jos-referral .jos-total-referral h3{font-size: 26px;}
+    .jpurchase-order-details .jsales-order-details-block .jsod-itemdetails-group > div{width: 50%; margin-bottom: 10px;}
+    .jpurchase-order-details .jsod-ptr, .jpurchase-order-details .jsod-tax{text-align: left;}
+    .jpurchase-order-details .jsod-disc, .jpurchase-order-details .jsod-fr, .jpurchase-order-details .jsales-order-details-block .jsod-batch, .jpurchase-order-details .jsod-mrp, .jpurchase-order-details .jsales-order-details-block .jsod-gst{text-align: right;}
+    .jsales-order-details-desc .jsod-amount{font-size: 16px !important;}
+    .site-header .jheader-rewards { display: none; }
+    .owl-slide-img{height: 380px !important;}
+    .banner{margin-top: 20px;}
+    .about-us-inner{padding: 20px 0px 30px;}
+    .about-us h3{padding-bottom: 0px;}
+    .jinventory-item-list.gray-shadow{height: auto; margin-bottom: 30px;}
+    .jsales-order-details-break .jsod-amount{font-size: 20px;}
+    .jsales-order .lt-header .right button{margin-left: 10px;}
+    .jsales-order-details-break{margin-bottom: 15px;}
+    .jpurchase-order-list .jsales-order-list-block .jsales-order-no{width: 100%;}
+    .jpadd-order-details .jsp-left-inner > div{width: 48%; margin-bottom: 10px;}
+    .jpadd-order-details .jsp-left-inner > div:nth-child(2n){margin-right: 0px;}
+    .jpurchase-order-details .jsod-disc input, .jpurchase-order-details .jsod-fr input{text-align: right;}
+    .jsales-order .lt-header .title{font-size: 16px; flex-wrap: wrap;}
+    .jpadd-order-details.jpurchase-order-details .jsales-order-details-block .jsod-itemdetails-group > div{width: 50%; text-align: left;}
+    .jpadd-order-details.jpurchase-order-details .jsod-fr input, .jpadd-order-details.jpurchase-order-details .jsod-disc input{text-align: left;}
+    
+    .cdk-overlay-pane.batch-select-cdk-overlay-pane{width: auto; left: 0 !important; margin: 0px 16px !important;}
+    .cdk-overlay-pane.batch-select-cdk-overlay-pane .mat-option{padding: 0px;}
+    .jsales-order .lt-header .right button.jsales-print{height: 35px; min-width: 80px;}
+    .jsales-order .lt-header .right button{padding: 6px 10px; font-size: 16px;}
+    .jpayment-option{height: 35px;}
+    .lt-header .right .jpayment-option .mat-select-trigger{top: -11px;}
+    .jorder-medicine-head .jmedicine-selected{padding: 0 10px;}
+    .jsuggestion-row .jom-medicine-pack{width: 100%; margin-bottom: 5px;}
+    .jsuggestion-row .jom-medicine-manufacture{width: 70%;}
+    .jsuggestion-row .jom-medicine-mrp{width: 30%; text-align: right;}
+    .jnew-patient-content-head{flex-direction: column;}
+    .jnew-patient-content-btn{margin-left: 0; display: flex; margin-top: 10px;}
+    .jnew-patient-content-btn .fas{margin-left: auto;}
+    .jnew-patient-content-head, .jnew-patient-content-desc{padding:20px}
+    .jbottomsheet .jbatch-desc .jso-form-field{width: 48%; margin-right: 4%;}
+    .jbottomsheet .jbatch-desc .jso-form-field:nth-child(2n){margin-right: 0%;}
+    .lbanner-slider .owl-nav, .lbanner-slider .owl-nav button{display: none;}
+    .main-content .sidebar{top: 98px;}
+	.ratings-box .owl-theme .owl-dots .owl-dot.active span, .ratings-box .owl-theme .owl-dots .owl-dot:hover span { width: 94px; height: 94px; }
+	.ratings-box .owl-theme .owl-dots .owl-dot span { width: 50px; height: 50px; }
+	.image-slider .owl-nav .owl-prev, .ratings-box .owl-nav .owl-prev { left: 10px; }
+	.image-slider .owl-nav .owl-next { right: 10px; }
+	.ratings-box .owl-nav .owl-next { right: 0px; }
+	.ratings-box .owl-nav .owl-prev { left: 0px; }
+	.lrf-box{margin: -80% 00px 0px;}
+    }
+ @media(max-width: 480px){
+    .pick-up .order-details-container .order-medicine-list .discount-box span.minus{left: 22px;}
+    .order-details-container .order-medicine-list .discount-box span.plus{right: 22px;}
+    .pick-up-enquiries .lk-row{padding: 15px 20px}
+    .lt-header .pick-up-title{font-size: 16px;} .pick-up-confirmed
+    .pick-up-order-group{flex-direction: column;} .pick-up-confirmed
+    .pick-up-order-group .pick-up-order, .pick-up-confirmed .order-no-info
+    .pick-up-issue{margin-left: 0px; margin-top: 15px; text-align: left} .pick-up
+    .order-summary-block{margin-top: 10px;}
+    .pick-up .order-medicine-list .ml-right .ml-mrp{max-width: 100%; width: 100%}
+    .pick-up .order-details-container .order-medicine-list .discount-box{margin: 4px 0px; width: 40%}
+    .pick-up-enquiries .lk-row{padding: 15px 0px;}
+    .pick-up .order-medicine-list .ml-right .ml-mrp input{width: 30%;}
+    .pick-up .order-details-container .order-medicine-list .discount-box input[type="text"]{max-width: 100%;}
+    .pick-up .order-details-container .order-medicine-list .discount-box span.minus:before{width: 10px}
+    .pick-up .order-details-container .order-medicine-list .discount-box span.plus:after, .pick-up .order-details-container .order-medicine-list .discount-box span.plus:before{width: 10px;}
+    .jnotification-add.modal .modal-contain{margin-right: 0px; margin: 50px auto 0px;}
+    .pick-up .om-desc.order-medicine-list .ml-right .ml-qty{margin-left: auto;}
+    .pick-up .om-desc.order-medicine-list .ml-right .ml-amount{width: 35%}
+    .jinventory-separator{max-width: 250px;}
+    .jsales-patient-details-right{height: auto;}
+    .jsp-left-inner{flex-direction: column; height: auto;}
+    .jsp-left-inner-ord-no{width: 100%; margin-right: 0px;}
+    .jsp-left-inner-ord-date{width: 100%}
+    .jsp-right-inner p{display: block;}
+    .jsp-right-inner-block{flex-direction: column;}
+    .jsales-order-details-block .jsod-qty .fas{display: none;}
+    .jnp-content-desc-otp.jnp-form-field{width: 100%; margin-bottom: 15px;}
+    .jnp-content-desc-otp.jnp-form-field span{left:  auto; right: 0px;}
+    .jnew-patient-content-head{padding: 15px;}
+    .jnew-patient-content-btn button{margin-right: 25px;}
+    .jnew-patient-content-desc{padding: 15px 20px;}
+    .jsales-order-list-block{flex-wrap: wrap;}
+    .jsales-order-list-group{width: 100%; padding-bottom: 10px;}
+    .jsales-order-list-block .jsales-order-amount{width: 50%; margin-left: 0px;}
+    .jsales-order-list-block .jsales-order-edit{width: 50%; text-align: right;}
+    .jsales-order-filter{flex-direction: column; align-items: unset;}
+    .jsales-total-order{width: 100%; margin-bottom: 15px;}
+    .jsales-order-details-block .jsod-itemdetails-block1 > div, .jsales-order-details-block .jsod-itemdetails-block2 > div{width: 50%; padding-bottom: 10px;}
+    .jsales-order-details-block .jsod-itemdetails-block1, .jsales-order-details-block .jsod-itemdetails-block2{flex-wrap: wrap;}
+    .jsales-order-details-desc .jsod-group{padding: 10px 0px 0px 10px}
+    .jsales-patient-details{padding: 18px 10px;}
+    .jso-after-search{margin-right: 0px; flex-wrap: wrap;}
+    .jsales-order .lt-header .title{font-size: 16px; flex-wrap: wrap;}
+    .jsales-order .lt-header .right.jheader-only-button button:first-child {margin-left: 0px; }
+    .jsales-order .lt-header .right.jheader-only-button button {width: 100%;}
+    .jheader-menu-group{margin: 0px 15px;}
+    .joffer .joffer-right{padding: 15px 0px;}
+    .joffer-leaderboard-btn .jol-btn-title{padding: 10px;}
+    .joffer-inner{margin-top: 15px;}
+    .joffer-state-refer-head{padding: 15px;}
+    .joffer-right .jos-referral{padding-bottom: 0px;}
+    .joffer.joffer-state .joffer-right{margin-bottom: 15px;}
+    .joffer-patient-list-desc .jop-list-name .fas {margin-right: 6px;}
+    .joffer-patient-list-block .jop-list-name{padding-left: 18px;}
+    .joffer-patient-list-block .jop-list-name{width: 42%;}
+    .joffer-patient-list-block .jop-list-no, .joffer-patient-list-block .jop-list-date{width: 29%;}
+    .joffer .joffer-title h6{font-size: 15px;}
+    .lt-header .right .jpayment-option .mat-form-field-infix{width: 140px;}
+    .jpayment-option{min-width: 175px;}
+    .jlanding-page h2{font-size: 30px;}
+    .jlanding-page h3{font-size: 24px;}
+    .jlanding-page h4{font-size: 18px;}
+    .footer-block{width: 100%;}
+    .footer-inner{text-align: center;}
+    .social-icon{text-align: center;}
+    .footer {padding: 40px 0px; }
+    .footer-logo{padding-top: 35px;}
+    .business-with-us-right-block{width: 100%; margin-right: 0px; margin-bottom: 30px;}
+    .business-with-us-right-block:last-child{margin-bottom: 0px;}
+    a.cta{min-width: 150px; padding: 14px 20px; font-size: 16px;}
+    .sell-on-vitalrx-block-content p{font-size: 16px; line-height: 22px;}
+    .sell-on-vitalrx-block-img {width: 55px; height: 55px;}
+    .sell-on-vitalrx-block-img img {max-width: 33px; }
+    .sell-on-vitalrx-block-content{padding-left: 24px; width: calc(100% - 79px);}
+    .banner h3{padding-bottom: 10px;}
+    .three-column, .business-with-us, .sell-on-vitalrx {padding: 20px 0; }
+    .three-column-block{margin-bottom: 20px;}
+    .sell-on-vitalrx-inner, .three-column-content{padding-top: 20px;}
+    .custom-control{bottom: 2em}
+    .owl-slide-content {padding: 20px 0px; }
+    .get-app{flex-direction: column;}
+    .google-pay{margin-bottom: 30px; margin-right: 0px;}
+    .header-logo img {max-width: 130px; }
+    .faq .header{height: 300px;}
+    .faq-content-rblock-no{font-size: 22px;}
+    .faq-content-left ul li a, .faq-content-rblock-que{font-size: 16px;}
+    .faq-content {padding: 56px 0px 30px; }
+    .nav > #nav-check:checked ~ .nav-links{min-height: 280px;}
+    .faq-content-inner{padding: 30px 20px;}
+    .jlanding-page .header{padding: 20px 0px;}
+    .jlanding-page .owl-theme .owl-dots{margin-top: -25px;}
+    .jcarousel{flex-wrap: wrap;}
+    .about-us-inner .owl-slide-img{width: 100%;}
+    .jsales-order-list-block .jsales-order-amount{text-align: left;}
+    .jsales-order-amount.jdue-amount, .jpurchase-order-list .jsales-order-list-block .jsales-order-amount{justify-content: flex-start; width: 50%;}
+    .jpagination ul li.jpage-prev, .jpagination ul li.jpage-next{height: 26px; line-height: 26px; min-width: 60px; font-size: 14px;}
+    .jinventory-head .jsales-order-search{width: 100%; margin-bottom: 15px; margin-right: 0px;}
+    .jinventory-item-list-block .jil-manufacture{padding-bottom: 5px;}
+    .jinventory-head  .jexpired-only, .jinventory-item-list-block .jil-manufacture{width: 100%;}
+    .jinventory-item-list-block .jil-total-by-mrp, .jinventory-item-list-block .jil-total-by-ptr{width: 40%;}
+    .jinventory-item-list-block .jil-qty-on-hand{width: 20%;}
+    .jonline-purchase-row .jo-purchase-order-status{width: 100%; margin-bottom: 10px;}
+    .jonline-purchase-row .jo-purchase-order-distributor{width: 60%;}
+    .jonline-purchase-row .jo-purchase-order-amount{width: 100%; text-align: left;}
+    .jinventory-item-list-block .jmd-batch, .jinventory-item-list-block .jmd-qty, .jinventory-item-list-block .jmd-exp-date, .jinventory-item-list-block .jmd-mrp, .jinventory-item-list-block .jmd-totalmrp, .jinventory-item-list-block .jmd-purerate, .jinventory-item-list-block .jmd-totalptr{width: 50%;}
+    .jinventory-item-list-block .jmd-totalmrp, .jinventory-item-list-block .jmd-purerate{margin-bottom: 15px;}
+    .lt-header .jorder-payment.new-sales-payment{width: 100%; margin-bottom: 10px;}
+    .jso-form-field input{font-size: 14px;}
+    .jsales-order .lt-header{margin-bottom:12px}
+    .jpadd-order-details .jsp-left-inner > div{width: 100%; margin-right: 0px;}
+    .cdk-overlay-pane .mat-autocomplete-panel{max-width: 87% !important;}
+    .cdk-overlay-pane{width: 100% !important;}
+    .jsales-order-details-block .jsod-itemdetails-block2 .jsod-disc input{text-align: right;}
+    .jnew-sales-order-detail .jsod-itemdetails-block1 > div, .jnew-sales-order-detail .jsod-itemdetails-block2 > div{width: 50% !important;}
+    .jsales-order-details .jsales-order-details-block .jsod-itemdetails-block2, .jsales-order-details .jsales-order-details-block .jsod-itemdetails-block1{width: 100%;}
+    .jbottomsheet-cb-left{width: 75px; height: 75px; margin-right: 20px;}
+    .jbottomsheet-cb-left .fas{font-size: 30px;}
+    .jbottomsheet-content{padding: 20px;}
+    .jsales-order-details-block .jsod-group .jsod-baseprice,.jsales-order-details-block .jsod-itemdetails-block2 .jsod-gst{text-align: left;}
+    .jsp-left-inner h6{line-height:22px}
+    .jsales-order-details .jsp-left-inner-ord-no label{line-height: 22px;}
+    .jom-selected-row .jom-selected-block{width:100%;}
+    .jom-selected-row .jom-selected-medicine-amount{width: 80;}
+    .jom-selected-row .jom-selected-medicine-remove{width: 20%; margin-left: auto;}
+    .jom-selected-row .jom-selected-group1 > div, .jom-selected-row .jom-selected-group2 > div{width: 100%;}
+    .cdk-overlay-pane.cdk-pane-jmedicine-suggestion-box .mat-autocomplete-panel{max-width: 100% !important;}
+    .jorder-checkout .jom-selected-row .jom-selected-medicine-pack{width: 100%;}
+    .jorder-checkout .jom-selected-row .jom-selected-group1 > div, .jorder-checkout .jom-selected-row .jom-selected-group2 > div{width: 50%;}
+    .jsales-order .lt-header .right button.jsales-print.jsales-save { width: 100%; margin-top: 10px; margin-left: 0px; max-width: 175px; }
+    .jbottomsheet .jbatch-desc .jso-form-field{width: 100%; margin-right: 0%;}
+    .jbottomsheet .jbatch-desc .jso-form-field:nth-child(2n){margin-right: 0%;}
+    .jcustomer-view-block .jcv-pack, .jcustomer-view-desc .jcv-bought{width: 100%; margin-bottom: 15px;}
+    .jlanding-page .header .fixed-header{padding: 10px 10px;}
+    .jlanding-page .header .header_sticky img{max-width: 120px;}
+    .nav > #nav-check:checked ~ .nav-links{top: 66px;}
+    .jlanding-page .joffer.header, .jlanding-page .header .header_sticky{padding: 10px;}
+    .header-login-btn button{height:32px; padding:4px 14px}
+    .site-header .text-logo img{height: 30px;}
+    .main-content .sidebar{top: 94px;}
+    .lrf-logo .text-logo img { max-width: 130px; }
+}
+@media only screen and (max-width: 450px) {
+	.popupalerts .popupcontent { max-width: 290px; }
+	.popupcontent .button a { width: 80%; }
+}
+
+@media(max-width: 400px){
+    .jpurchase-order-details .jsales-order-details-desc .jsod-group, .jpurchase-order-details .jsales-order-details-desc .jsod-amount{height: auto !important;}
+    .jsales-order-details-block .jsod-itemdetails-group{flex-wrap: wrap;}
+    .jsales-order-details .jsales-order-details-block-left:first-child .jsod-group, .jsales-order-details .jsales-order-details-block-left:first-child .jsod-amount{height: auto !important}
+    .jsales-order-details-desc .jsales-order-details-block-left:last-child .jsod-group, .jsales-order-details-desc .jsales-order-details-block-left:last-child .jsod-amount{height: auto !important;}
+    .jpadd-order-details.jsales-order-details .jsales-order-details-block-left:first-child .jsod-group, .jpadd-order-details.jsales-order-details .jsales-order-details-block-left:first-child .jsod-amount{height: 60px !important}
+    .japc-toggle-slide{width: 100%; margin-left: 0px; margin-top: 15px;}
+    .jap-content-discount-block-right{padding: 25px;}
+    .japc-pickup .jap-content-discount-block-right{padding: 25px;}
+    .pick-up-issue-reason{width: auto;}
+    .jpadd-order-details .jsales-order-details-gross-discount .jsales-order-details-block-left:first-child .jsod-group{height: 0px !important}
+    .jpadd-order-details .jsales-order-details-gross-discount .jsales-order-details-block-left:first-child .jsod-amount{height: auto !important}
+    .jsales-order-details-block .jsod-index{width: 6%}
+	.jbottomsheet-content{height: calc(100vh - 96px);}
+    }
+
+@media(max-width: 376px){
+    h2{font-size: 26px;}
+    h3{font-size: 20px;}
+    .owl-slide-img{height: 340px !important;}
+    .safety-and-priority-rblock{max-width: 270px; border-width: 15px; margin: 0 auto}
+    .safety-and-priority-rblock1, .safety-and-priority-rblock2{border-width: 15px;}
+    .safety-and-priority-rblock2 img{max-width: 80px;}
+    .safety-and-priority-rblock3{max-width: 180px; height: 180px; line-height: 180px;}
+    .safety-and-priority-lblock-no{margin-bottom: 20px;}
+    .safety-and-priority-lblock-content{width: 100%;}
+    .pick-up .om-desc.order-medicine-list .ml-right .ml-amount{width: 40%;}
+    .pick-up .om-desc.order-medicine-list .ml-right .ml-qty{margin-left: 0px;}
+    .order-details-container .order-summary .price-block.os-netpayable .os-pb-value{font-size: 16px;}
+    .pick-up .order-details-container .order-summary .price-block.os-netpayable{padding: 10px 10px;}
+    .jinventory-separator{max-width: 210px;}
+    .joffer-leaderboard-btn .jol-btn-title h6{font-size: 14px;}
+    .joffer-leaderboard-btn .jol-btn-title p{font-size: 12px;}
+    .joffer-right .joffer-leaderboard-head:first-child .jol-head-right{width: 100%; margin-top: 20px;}
+    .joffer.joffer-login .joffer-right .joffer-leaderboard-head:first-child .jol-head-right{width:auto; margin-top: 00px;}
+    .joffer-state .joffer-patient-list-desc > div, .joffer-state .joffer-patient-list-head > div{font-size: 12px;}
+    .jol-chemist-list .jol-chemist-refer-count h4{font-size: 22px;}
+    .jsales-order .lt-header .left .lt-header-new-button button{padding: 6px 10px; font-size: 16px; margin-left: 0px;}
+    .lt-header-new-button{width: 100%;}
+    .jinventory-title .lt-header .right .jo-medicine-btn{width: 100%; margin-bottom: 15px;}
+    .jinventory-title .lt-header .right .jo-medicine-btn button.jimport-backup{height: 32px;}
+    .jonline-purchase-row .jo-purchase-order-distributor{width: 100%; margin-bottom: 10px;}
+    .jonline-purchase-row .jo-purchase-order-amount{width: 100%; text-align: left;}
+    .jbottomsheet-cb-right{width: 100%; margin-top: 20px; text-align: center;}
+    .jbottomsheet-content-block{justify-content: center;}
+    .jbottomsheet-cb-left{margin-right: 0px;}
+    .jjoin-as-lab { padding: 16px 25px; }
+    }
